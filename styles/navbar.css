@@ -89,6 +89,7 @@ a {
   display: none;
   top: 20;
   left: 0;
+  z-index: 1100;
 }
 .dr-dropdown-div a {
   color: #777;
