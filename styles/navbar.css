@@ -1,13 +1,18 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+header{
+  box-shadow: -1px 7px 20px -7px #afa2a2;
+  padding-block: 10px;
+  margin-bottom: 50px;
+}
 .dr-top-nav {
   display: flex;
   align-items: center;
   width: 80%;
   min-width: 800px;
   align-self: right;
-  margin:30px auto;
+  margin:10px auto;
   justify-content: right;
   gap: 20%;
 }
@@ -39,9 +44,8 @@ body {
 
 .dr-container {
   width: 80%;
-  margin: 0 0 0 50px;
   display: flex;
-  margin-bottom: 50px;
+  margin:20px auto;
 }
 
 .dr-container > ul {
@@ -136,6 +140,7 @@ a {
 .about-us-div {
   position: absolute;
   display: none;
+  background-color: white;
 }
 
 .about-us-div ul {
@@ -145,6 +150,8 @@ a {
 }
 .about-us-div ul li a {
   color: #777;
+  padding: 5px;
+  display: inline-block;
 }
 
 /* On screens that are 768px or less, set the background color to olive */

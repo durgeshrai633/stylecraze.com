@@ -1,21 +1,22 @@
-function navbar(){
-    return `<div id="dr-left-menu">
+function navbar() {
+  return `<div id="dr-left-menu">
     <div class="dr-hamburger-div">
       <span"><i class="fas fa-bars"></i></span>
     </div>
     <div class="dr-left-menu-div">
       <ul>
         <li>
-          <a href="">Make Up</a>
+          <a href="makeup.html">Make Up</a>
           <div>
             <ul>
-              <li><a href="">Bridal Makeup</a></li>
-              <li><a href="">Celebrity Makeup</a></li>
-              <li><a href="">Eye Make up</a></li>
-              <li><a href="">Face Make up</a></li>
-              <li><a href="">Lip Make up</a></li>
-              <li><a href="">Make up Ideas</a></li>
-              <li><a href="">Mehandi Designs</a></li>
+               <li><a href="bridalmakeup.html">Bridal Makeup</a></li>
+              <li><a href="calebrity.html">Celebrity Makeup</a></li>
+              <li><a href="eyemakeup.html">Eye Make up</a></li>
+              <li><a href="face.html">Face Makeup</a></li>
+              <li><a href="lipmakeup.html">Lip Make up</a></li>
+              <li><a href="makeupidea.html">Makeup Ideas</a></li>
+              <li><a href="mehndi.html">Mehandi Designs</a></li>
+              <li><a href="nailart.html">Nail Art</a></li>
             </ul>
           </div>
         </li>
@@ -81,23 +82,23 @@ function navbar(){
       <ul>
         <li>
           <a id = "nav-first-link"
-            href=""
+            href="makeup.html"
             >Make up</a
           >
           <div class="dr-flex dr-dropdown-div" id="makeup-dropdown">
             <ul class="dr-flex">
               <li>
-                <a href="" id = "bridal-makeup">Bridal Makeup</a>
+                <a href="bridalmakeup.html" id = "bridal-makeup">Bridal Makeup</a>
               </li>
               <li>
-                <a href="" id="celebrity-makeup">Celebrity Makeup</a>
+                <a href="celebrity.html" id="celebrity-makeup">Celebrity Makeup</a>
               </li>
-              <li><a href="" id="eye-makeup">Eye Make up</a></li>
-              <li><a href="" id="face-make-up">Face Makeup</a></li>
-              <li><a href="">Lip Make up</a></li>
-              <li><a href="">Makeup Ideas</a></li>
-              <li><a href="">Mehandi Designs</a></li>
-              <li><a href="">Nail Art</a></li>
+              <li><a href="eyemakeup.html" id="eye-makeup">Eye Make up</a></li>
+              <li><a href="face.html" id="face-make-up">Face Makeup</a></li>
+              <li><a href="lipmakeup.html">Lip Make up</a></li>
+              <li><a href="makeupidea.html">Makeup Ideas</a></li>
+              <li><a href="mehndi.html">Mehandi Designs</a></li>
+              <li><a href="nailart.html">Nail Art</a></li>
             </ul>
             <ul class="dr-flex" id="make-up-submenu">
               <li>
@@ -162,9 +163,8 @@ function navbar(){
         </li>
         <li>
           <a
-            href=""
-            onmouseover="toggleMakeUp(event);"
-            onmouseout="toggleMakeUpOff(event);"
+            href="haircare.html"
+            id = "second-nav-link"
             >hair care</a
           >
           <div class="dr-flex dr-dropdown-div" id="haircare-dropdown">
@@ -244,21 +244,21 @@ function navbar(){
         </li>
         <li>
           <a
-            href=""
-            onmouseover="toggleMakeUp(event);"
-            onmouseout="toggleMakeUpOff(event);"
+            href="skincare.html"
+            id="third-nav-link"
             >skin care</a
           >
           <div class="dr-flex dr-dropdown-div" id="skincare-dropdown">
             <ul class="dr-flex">
-              <li><a href="">Bridal Makeup</a></li>
-              <li><a href="">Celebrity Makeup</a></li>
-              <li><a href="">Eye Make up</a></li>
-              <li><a href="">Face Makeup</a></li>
-              <li><a href="">Lip Make up</a></li>
-              <li><a href="">Makeup Ideas</a></li>
-              <li><a href="">Mehandi Designs</a></li>
-              <li><a href="">Nail Art</a></li>
+              <li><a href="">Acne</a></li>
+              <li><a href="">Anti Ageing</a></li>
+              <li><a href="">Beauty Secrets</a></li>
+              <li><a href="">Dry Skin</a></li>
+              <li><a href="">Face Care Tips</a></li>
+              <li><a href="">Homemade Tips</a></li>
+              <li><a href="">Oily Skin</a></li>
+              <li><a href="">Perfumes</a></li>
+              <li><a href="">Skin Care Ideas</a></li>       
             </ul>
             <ul class="dr-flex">
               <li>
@@ -323,9 +323,8 @@ function navbar(){
         </li>
         <li>
           <a
-            href=""
-            onmouseover="toggleMakeUp(event);"
-            onmouseout="toggleMakeUpOff(event);"
+            href="hairstyles.html"
+            id="fourth-nav-link"
             >hair styles</a
           >
           <div class="dr-flex dr-dropdown-div" id="hairstyle-dropdown">
@@ -402,21 +401,19 @@ function navbar(){
         </li>
         <li>
           <a
-            href=""
-            onmouseover="toggleMakeUp(event);"
-            onmouseout="toggleMakeUpOff(event);"
+            href="health.html"
             >health and wellness</a
           >
           <div class="dr-flex dr-dropdown-div" id="health-dropdown">
             <ul class="dr-flex">
-              <li><a href="">Bridal Makeup</a></li>
+              <li><a href="bridalmakeup.html">Bridal Makeup</a></li>
               <li><a href="">Celebrity Makeup</a></li>
-              <li><a href="">Eye Make up</a></li>
+              <li><a href="eyemakeup.html">Eye Make up</a></li>
               <li><a href="">Face Makeup</a></li>
               <li><a href="">Lip Make up</a></li>
-              <li><a href="">Makeup Ideas</a></li>
-              <li><a href="">Mehandi Designs</a></li>
-              <li><a href="">Nail Art</a></li>
+              <li><a href="makeupidea.html">Makeup Ideas</a></li>
+              <li><a href="mehndi.html">Mehandi Designs</a></li>
+              <li><a href="nailart.html">Nail Art</a></li>
             </ul>
             <ul class="dr-flex">
               <li>
@@ -481,9 +478,7 @@ function navbar(){
         </li>
         <li>
           <a
-            href=""
-            onmouseover="toggleMakeUp(event);"
-            onmouseout="toggleMakeUpOff(event);"
+            href="news.html"
             >news</a
           >
           <div class="dr-flex dr-dropdown-div" id="news-dropdown">
@@ -559,14 +554,13 @@ function navbar(){
           </div>
         </li>
         <li>
-          <a href="">tools</a>
+          <a href="tools.html">tools</a>
         </li>
-        <li><a href="">products</a></li>
+        <li><a href="products.html">products</a></li>
         <li>
           <a
             href=""
-            onmouseover="toggleMakeUp(event);"
-            onmouseout="toggleMakeUpOff(event);"
+            id="last-nav-link"
             >about us</a
           >
           <div class="about-us-div">
@@ -583,6 +577,5 @@ function navbar(){
     </div>
   </nav>`;
 }
-
 
 export default navbar;
