@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#navDiv{
+    height: 100px;
+    border:1px solid #ff5a78;
+}
+#smainbox{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+#stextbox{
+    width: 45%;
+    font-family: Poppins,Poppins-Hindi,sans-serif;
+    padding: 40px 0px 0px 20px;
+    color:#333;
+}
+#sgridDivtext{
+    font-weight: lighter;
+    line-height: 30px;
+    margin-top: 10px;
+    
+}
+#sgreydiv{
+    height: 250px;
+    background-image: url("https://www.stylecraze.com/static-content/onlinetools/all_calc_d.png");
+    background-size: cover;
+    
+}
+#swhitegrids{
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    grid-gap: 2%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -50px;
+   
+}
+.sgridDiv{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: Poppins,Poppins-Hindi,sans-serif;
+    padding: 20px 10px 10px 20px;
+    cursor: pointer;
+    background-color: white;
+}
+.sgridDiv:hover{
+    background-color: #fff7f8;
+}
+.spinktext{
+    float: left;
+    margin-top: 40px;
+    color:#ff5a78;
+}
+.spar{
+    line-height: 25px;
+    color: #727272;;
+}
+.stitle{
+    line-height: 30px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    #smainbox{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #swhitegrids{
+        grid-template-columns: repeat(2,46%);
+        margin-top: -20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-gap: 1%;
+    }
+    #stextbox{
+        width: 55%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width: 500px) {
+    #smainbox{
+        margin:0px;
+    }
+    #swhitegrids{
+        grid-template-columns: repeat(1,99%);
+        margin: 0px;
+        grid-gap: 0.5%;
+    }
+    #stextbox{
+        width: 70%;
+    }
+}
