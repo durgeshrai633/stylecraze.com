@@ -9,6 +9,7 @@ var hairstyle = document.getElementById("hairstyle-dropdown");
 var health = document.getElementById("health-dropdown");
 var news = document.getElementById("news-dropdown");
 
+// Makeup eventlistener
 var navfirstlink = document.getElementById("nav-first-link");
 console.log(navfirstlink.textContent);
 navfirstlink.addEventListener("mouseover", (e) => {
@@ -18,36 +19,83 @@ navfirstlink.addEventListener("mouseout", (e) => {
   toggleMakeUpOff(e);
 });
 
+// hair care eventlistener
+var secondNavLink = document.getElementById("second-nav-link");
+console.log(navfirstlink.textContent);
+secondNavLink.addEventListener("mouseover", (e) => {
+  toggleMakeUp(e);
+});
+secondNavLink.addEventListener("mouseout", (e) => {
+  toggleMakeUpOff(e);
+});
+
+// skin care eventlistener
+var thirdNavLink = document.getElementById("third-nav-link");
+console.log(navfirstlink.textContent);
+thirdNavLink.addEventListener("mouseover", (e) => {
+  toggleMakeUp(e);
+});
+thirdNavLink.addEventListener("mouseout", (e) => {
+  toggleMakeUpOff(e);
+});
+
+// skin care eventlistener
+var fourthNavLink = document.getElementById("fourth-nav-link");
+console.log(navfirstlink.textContent);
+fourthNavLink.addEventListener("mouseover", (e) => {
+  toggleMakeUp(e);
+});
+fourthNavLink.addEventListener("mouseout", (e) => {
+  toggleMakeUpOff(e);
+});
+
+
+
+
+var lastNavLink = document.getElementById("last-nav-link");
+console.log(navfirstlink.textContent);
+lastNavLink.addEventListener("mouseover", (e) => {
+  toggleMakeUp(e);
+});
+lastNavLink.addEventListener("mouseout", (e) => {
+  toggleMakeUpOff(e);
+});
+
 var bridalMakeUp = document.getElementById("bridal-makeup");
-bridalMakeUp.addEventListener("mouseover", ()=>{
+bridalMakeUp.addEventListener("mouseover", () => {
   addBridal();
 });
 
 var celebritymakeup = document.getElementById("celebrity-makeup");
-celebritymakeup.addEventListener("mouseover", ()=>{
+celebritymakeup.addEventListener("mouseover", () => {
   addCelebrity();
 });
 
 var eyemakeup = document.getElementById("eye-makeup");
-eyemakeup.addEventListener("mouseover", ()=>{
+eyemakeup.addEventListener("mouseover", () => {
   addEye();
 });
 
 var facemakeup = document.getElementById("face-make-up");
-facemakeup.addEventListener("mouseover", ()=>{
+facemakeup.addEventListener("mouseover", () => {
   addFace();
 });
 
-
-
 function toggleMakeUp(event) {
   event.originalTarget.nextElementSibling.style.display = "block";
-  event.originalTarget.nextElementSibling.onmouseover = () => {
+  event.originalTarget.nextElementSibling.addEventListener("mouseover", () => {
     event.originalTarget.nextElementSibling.style.display = "block";
-  };
-  event.originalTarget.nextElementSibling.onmouseout = () => {
+  });
+  event.originalTarget.nextElementSibling.addEventListener("mouseout", () => {
     event.originalTarget.nextElementSibling.style.display = "none";
-  };
+  });
+
+  // event.originalTarget.nextElementSibling.onmouseover = () => {
+  //   event.originalTarget.nextElementSibling.style.display = "block";
+  // };
+  // event.originalTarget.nextElementSibling.onmouseout = () => {
+  //   event.originalTarget.nextElementSibling.style.display = "none";
+  // };
 }
 
 function toggleMakeUpOff(event) {
