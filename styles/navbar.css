@@ -7,7 +7,7 @@ body {
   width: 80%;
   min-width: 800px;
   align-self: right;
-  margin: auto;
+  margin:30px auto;
   justify-content: right;
   gap: 20%;
 }
@@ -41,6 +41,7 @@ body {
   width: 80%;
   margin: 0 0 0 50px;
   display: flex;
+  margin-bottom: 50px;
 }
 
 .dr-container > ul {
@@ -90,6 +91,7 @@ a {
   top: 20;
   left: 0;
   z-index: 1100;
+  background-color: white;
 }
 .dr-dropdown-div a {
   color: #777;
