@@ -250,14 +250,15 @@ function navbar() {
           >
           <div class="dr-flex dr-dropdown-div" id="skincare-dropdown">
             <ul class="dr-flex">
-              <li><a href="">Bridal Makeup</a></li>
-              <li><a href="">Celebrity Makeup</a></li>
-              <li><a href="">Eye Make up</a></li>
-              <li><a href="">Face Makeup</a></li>
-              <li><a href="">Lip Make up</a></li>
-              <li><a href="">Makeup Ideas</a></li>
-              <li><a href="">Mehandi Designs</a></li>
-              <li><a href="">Nail Art</a></li>
+              <li><a href="">Acne</a></li>
+              <li><a href="">Anti Ageing</a></li>
+              <li><a href="">Beauty Secrets</a></li>
+              <li><a href="">Dry Skin</a></li>
+              <li><a href="">Face Care Tips</a></li>
+              <li><a href="">Homemade Tips</a></li>
+              <li><a href="">Oily Skin</a></li>
+              <li><a href="">Perfumes</a></li>
+              <li><a href="">Skin Care Ideas</a></li>       
             </ul>
             <ul class="dr-flex">
               <li>

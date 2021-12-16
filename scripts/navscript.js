@@ -52,6 +52,8 @@ fourthNavLink.addEventListener("mouseout", (e) => {
 
 
 
+
+
 var lastNavLink = document.getElementById("last-nav-link");
 console.log(navfirstlink.textContent);
 lastNavLink.addEventListener("mouseover", (e) => {
