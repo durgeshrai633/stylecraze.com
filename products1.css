@@ -1,0 +1,128 @@
+:root{
+    --white_smoke: #f5f5f5;
+    --poppin-family:'Poppins',sans-serif;
+}
+body{
+    background-color: var(--white_smoke);
+}
+#dVmakeup{
+    display: flex;
+    width: 100%;
+    margin-bottom: 150px;
+}
+#dVfilters{
+    width: 19%;
+    margin: 2%;
+    /* border: 1px solid palevioletred; */
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: 6%;
+}
+#dVproducts1_cont{
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    grid-gap: 2%;
+    width: 76%;
+    margin: 2%;
+    padding: 4%;
+}
+#dVproducts1_cont > div{
+    background-color: white;
+    cursor: pointer;
+    /* box-shadow: 0 0 0 0 #777; */  
+}
+.dVonHoverPink:hover{
+    color: #fc2779;
+}
+#dVproducts1_cont > div > img{
+    max-width: 97%;
+}
+#starsDiv{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+#dVproducts1_cont > div >p{
+    text-align: center;
+}
+#wish_buyDiv{
+    width: 100%;
+    vertical-align: bottom;
+    display: flex;
+    opacity: 0;
+}
+#dVproducts1_cont > div:hover #wish_buyDiv{
+    opacity: 1;
+}
+#dVheart{
+   color: #fc2779;
+    width: 20%;
+    height: 50px;
+    vertical-align: bottom;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#dVbuyBtn{
+    width: 80%;
+    background-color:#fc2779;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    font-family: var(--poppin-family);
+   cursor: pointer;
+}
+.dVbg_border{
+    width: 99%;
+    text-align: left;
+    font-size: 18px;
+    background-color: white;
+    /* border: 1px solid lightgray; */
+    padding: 2%;
+    padding-left: 5%;
+    /* border-radius: 5px; */
+}
+#dVtype,#dVbrands{
+    padding-top: 4%;
+    padding-bottom: 5%;
+    border-radius: 5px;
+}
+.dVbrand,.dVtype{
+    cursor: pointer;
+    padding-top: 3%;
+   
+}
+.dVbrands_icon,.dvTypes_icon{
+    display: grid;
+    grid-template-columns: 85% 15%;
+
+}
+.dVicon{
+    width: 45px;
+}
+.dVmakeFixed{
+    /* position: fixed; */
+    width: 100%;
+    margin-bottom: 4%;
+}
+.dVmakeFixed_type{
+    position: relative;
+
+}
+#dVshowType,#dVshowBrand{
+    display: none;
+}
+#shades{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 35px;
+}
+#shades >div{
+    margin: 2%;
+    border-radius: 50%;
+    width: 13%;
+}
