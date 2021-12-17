@@ -23,7 +23,8 @@ async function showProduct(data,location) {
         desc.setAttribute("class","dVproduct_desc")
 
         let readMore = document.createElement("a");
-        readMore.innerText = "Read More..."
+        readMore.innerText = "GO TO SHOP"
+        readMore.href="products1.html"
         readMore.setAttribute("class","dVproduct_readMore")
 
         prodDiv.append(img,category,title,desc,readMore);

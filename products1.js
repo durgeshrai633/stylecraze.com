@@ -5,11 +5,11 @@ let localData = JSON.parse(localStorage.getItem("makeup")) || []
 async function products()
 {
     try{
-    // let url = `http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline`;
-    // let res = await fetch(url);
-    // let data = await res.json();
-    // console.log(data);
-    // localStorage.setItem("makeup", JSON.stringify(data))
+    let url = `http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline`;
+    let res = await fetch(url);
+    let data = await res.json();
+    console.log(data);
+    localStorage.setItem("makeup", JSON.stringify(data))
     showProducts1(localData,dVproducts1_cont)
     }
     catch(err){
