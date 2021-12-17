@@ -1,10 +1,12 @@
 var cartItems = JSON.parse(localStorage.getItem("cartItm")) ||  [];
-
+console.log(cartItems);
 display(cartItems)
 
 var mainDiv = document.getElementById("itemsdiv");
-function display(el){
-  console.log(el)
+function display(itms){
+  console.log(itms)
+
+  itms.forEach(el => {
     let makeupDiv = document.createElement("div");
     let img = document.createElement("img");
     img.src = el.image_link;
@@ -33,15 +35,19 @@ function display(el){
             shade.style.backgroundColor = shadeArr[sh].hex_value
             shades.append(shade)
         }
-    }
-     var deletebtn = document.createElement("button");
-     deletebtn.textContent = "delete";
-     deletebtn.innerHTML = "<i class='far fa-trash-alt fa-2x'></i>"
-     deletebtn.addEventListener("click",function(){
-        remove(el);});
-            
-    makeupDiv.append(img,name,price,starsDiv,shades,deletebtn);
-    itemsdiv.append(makeupDiv)
+
+    } 
+    
+    var deletebtn = document.createElement("button");
+    deletebtn.textContent = "delete";
+    deletebtn.innerHTML = "<i class='far fa-trash-alt fa-2x'></i>"
+    deletebtn.addEventListener("click",function(){
+       remove(el);});
+           
+   makeupDiv.append(img,name,price,starsDiv,shades,deletebtn);
+   itemsdiv.append(makeupDiv)
+  });
+    
   }
   
 

@@ -1,6 +1,7 @@
 async function showProducts1(data, location)
 {
    console.log(data);
+   let cartItms = [];
    let i=0;
     data.forEach(el => {
             if(i <= 28)
@@ -46,7 +47,8 @@ async function showProducts1(data, location)
             buyBtn.innerText = `Buy Now`;
             buyBtn.setAttribute("id","dVbuyBtn");
             buyBtn.addEventListener("click",function goToCart(){
-                localStorage.setItem("cartItm",JSON.stringify(el))
+                cartItms.push(el)
+                localStorage.setItem("cartItm",JSON.stringify(cartItms))
                 window.open("cart.html")
             });
             wish_buyDiv.append(heart,buyBtn)
