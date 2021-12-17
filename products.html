@@ -7,11 +7,13 @@
     <link rel = "icon" href ="download-modified.png">
     <title>Products</title>
     <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="/styles/navbar.css" />   
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:display=swap" rel="stylesheet">
 </head>
 <body>
+    <header id="dr-header"></header>
     <center><h1 class="DproductH1">Shop</h1></center>
     <div id="DslctCategory">
         <select name="" id="Dcateg" >
@@ -27,9 +29,18 @@
         <option value="Hair Care">Hair Care Ideas</option>
         </select>
     </div>
+
     <div id="DproductCont"></div>
     <center><span id="dVnowMoredata"></span></center>
     <center><button id="dVloadMore">Load More</button></center>
 </body>
 </html>
 <script type="module" src="products.js"></script>
+<script type="module" src="/scripts/navscript.js"></script>
+<script type="module">
+    let DK_main =  document.getElementById("DK_main")
+    import footer from "./components/footer.js"
+    DK_main.innerHTML = footer()
+    let DK_last  =document.getElementById("DK_last")
+    import copy from "./components/copy.js"
+    DK_last.innerHTML = copy()
