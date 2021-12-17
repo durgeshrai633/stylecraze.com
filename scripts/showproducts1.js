@@ -47,9 +47,10 @@ async function showProducts1(data, location)
             buyBtn.innerText = `Buy Now`;
             buyBtn.setAttribute("id","dVbuyBtn");
             buyBtn.addEventListener("click",function goToCart(){
+                cartItms = JSON.parse(localStorage.getItem("cartItm")) || []
                 cartItms.push(el)
                 localStorage.setItem("cartItm",JSON.stringify(cartItms))
-                window.open("cart.html")
+                window.location.href="cart.html";
             });
             wish_buyDiv.append(heart,buyBtn)
 

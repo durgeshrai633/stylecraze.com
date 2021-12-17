@@ -1,11 +1,13 @@
 var cartItems = JSON.parse(localStorage.getItem("cartItm")) ||  [];
-display(cartItems)
+console.log(cartItems);
 
 var mainDiv = document.getElementById("itemsdiv");
-function display(itms){
-  console.log(itms)
+display()
 
-  itms.forEach(el => {
+function display(){
+  console.log(cartItems)
+    
+  cartItems.forEach(el => {
     let makeupDiv = document.createElement("div");
     makeupDiv.setAttribute("class","makeupDiv")
     let img = document.createElement("img");
@@ -42,48 +44,30 @@ function display(itms){
     deletebtn.textContent = "delete";
     deletebtn.innerHTML = "<i class='far fa-trash-alt fa-2x'></i>"
     deletebtn.addEventListener("click",function(){
-       remove(el);});
+        let index = findIndex(el,cartItems)
+        cartItems.splice(index,1);
+        console.log(cartItems,49);
+        localStorage.setItem("cartItm",JSON.stringify(cartItems))
+        mainDiv.innerHTML = null
+        display()    
+       
+    });
            
    makeupDiv.append(img,name,price,starsDiv,shades,deletebtn);
    itemsdiv.append(makeupDiv)
   });
     
-  }
-
-  var qty = cartItems.length;
-  var totalqty = document.getElementById("itemqty")
-  totalqty.textContent = "0"+qty
- 
-  var Bill = cartItems.reduce(function(acc,cv){
-      return acc + Number(cv.price)
-  },0);
-  var totalvalue = document.getElementById("itemprice")
-
-  totalvalue.textContent = Bill+"$"
-
-  var totalprice = document.getElementById("totalprice");
-  totalprice.textContent = Bill+"$"
-
-  var promo = document.getElementById("back")
-  promo.addEventListener("click",applypromo)
-  function applypromo(event){
-    var A = document.getElementById("couponinput").value
-    if(A == "style30"){
-        NewBill = Bill - (Bill*30)/100;
-        var totalvalue = document.getElementById("itemprice")
-
-        totalvalue.textContent = NewBill+"$"
-        var totalprice = document.getElementById("totalprice");
-        totalprice.textContent = NewBill+"$"
+   
+    function findIndex(el,cart) {
+        for(var i=0;i<cart.length;i++)
+        {
+            if(el===cart[i])
+            {
+                return i
+            }
+        }
     }
   }
 
-  var checkout= document.getElementById("checkout")
-  checkout.addEventListener("click",goToPayment)
-
-  function goToPayment(){
-      window.open("payment.html")
-  }
-
-
+  //To find Index of product in array
 
