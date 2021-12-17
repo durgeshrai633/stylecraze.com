@@ -4,28 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cart Items</title>
 <link rel="stylesheet" href="cart.css">
 <link rel="stylesheet" href="products1.css">
+<link rel="stylesheet" href="/styles/navbar.css" />
+<link rel = "icon" href ="download-modified.png">   
+<script src="https://kit.fontawesome.com/15dfb88336.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/675a12bd74.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
+    <header id="dr-header"></header>
+    <ol id="sol">
+        <li class="sli">
+          <a href="homepage.html">Home</a>
+        </li> » 
+        <li class="sli">
+            <a href="products1.html">Products</a>
+          </li> »
+        <li class="sli">
+          <a href="cart.html">Cart</a>
+        </li>
+    </ol>
+    <h1 id="cartItems">Cart Items</h1>
     <div id="cartcont">
+       
      <div id="itemsdiv" ></div>
         <div id="infodiv">
             <div id="cartcoupon" class="shadow">
                 <div>
                     <input type="text" placeholder="Enter coupon code" class="back" id="couponinput">
-                    <button class="back" onclick="checkcoupon()">Apply</button>
+                    <button id="back">Apply</button>
                 </div>
             </div>
             <div class="payinfo shadow">
                 <h1 id="pinkpay">Payment Details</h1>
                 <div class="costs">
-                    <div>Item total <span class="itemprice">₹</span></div>
+                    <div>Total Items <span id="itemqty"></span></div>
+                    <div>Total Value <span id="itemprice">$</span></div>
                     <div class="pintextteal">Delivery cost at  <span>Free</span> </div>
-                    <div>Today’s savings <span id="savings">₹</span> </div>
                     <hr >
-                    <div>Total price <span id="totalprice" >₹</span> </div>
+                    <div>Total price <span id="totalprice" >$</span> </div>
                 </div>
                 <div class="lft">
                 <input type="checkbox"> <label for="">
@@ -35,12 +57,27 @@
                         <span>Towards Donation for the underprivileged</span>  </label>
                 </div>
                 <div class="rgt lft">
-                    <button class="checkout" id="checkbottom">CHECKOUT</button>
+                    <button id="checkout">CHECKOUT</button>
                 </div>
             </div>
         </div>
     </div>
+    <div id = "DK_main"></div>
+<div id = "DK_last"></div>
 </body>
 </html>
 
 <script src="cart.js"></script>
+<script type="module" src="/scripts/navscript.js"></script>
+<script type="module">
+  let DK_main =  document.getElementById("DK_main")
+  import footer from "./components/footer.js"
+  DK_main.innerHTML = footer()
+
+
+
+  let DK_last  =document.getElementById("DK_last")
+  import copy from "./components/copy.js"
+  DK_last.innerHTML = copy()
+
+</script>

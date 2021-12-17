@@ -67,13 +67,11 @@
 #dVmake_fixed >ul >li{
     margin: 10px;
 }
-
 .dVabout-us-cont2{
     width: 69%;
     /* border: 1px solid green; */
     transform: translateY(50px);
 }
-
 #dVblank-cont{
    height: 50px; 
    /* border: 1px solid black; */

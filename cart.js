@@ -1,13 +1,15 @@
 var cartItems = JSON.parse(localStorage.getItem("cartItm")) ||  [];
 console.log(cartItems);
-display(cartItems)
 
 var mainDiv = document.getElementById("itemsdiv");
-function display(itms){
-  console.log(itms)
+display()
 
-  itms.forEach(el => {
+function display(){
+  console.log(cartItems)
+    
+  cartItems.forEach(el => {
     let makeupDiv = document.createElement("div");
+    makeupDiv.setAttribute("class","makeupDiv")
     let img = document.createElement("img");
     img.src = el.image_link;
     let name = document.createElement("p");
@@ -42,10 +44,30 @@ function display(itms){
     deletebtn.textContent = "delete";
     deletebtn.innerHTML = "<i class='far fa-trash-alt fa-2x'></i>"
     deletebtn.addEventListener("click",function(){
-       remove(el);});
+        let index = findIndex(el,cartItems)
+        cartItems.splice(index,1);
+        console.log(cartItems,49);
+        localStorage.setItem("cartItm",JSON.stringify(cartItems))
+        mainDiv.innerHTML = null
+        display()    
+       
+    });
            
    makeupDiv.append(img,name,price,starsDiv,shades,deletebtn);
    itemsdiv.append(makeupDiv)
   });
     
+   
+    function findIndex(el,cart) {
+        for(var i=0;i<cart.length;i++)
+        {
+            if(el===cart[i])
+            {
+                return i
+            }
+        }
+    }
   }
+
+  //To find Index of product in array
+
