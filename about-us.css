@@ -58,18 +58,22 @@
     /* top: 130px; */
     margin-top: 100px;
 }
+
 #dVmake_fixed >ul{
     list-style: none;
     /* text-align: center; */
 }
+
 #dVmake_fixed >ul >li{
     margin: 10px;
 }
+
 .dVabout-us-cont2{
     width: 69%;
     /* border: 1px solid green; */
     transform: translateY(50px);
 }
+
 #dVblank-cont{
    height: 50px; 
    /* border: 1px solid black; */
