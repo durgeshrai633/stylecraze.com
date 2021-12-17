@@ -1,11 +1,8 @@
 #DK_home{
-    width:95%;
     height: 500px;
-    /* border:1px solid black; */
-    margin: auto;
     margin-bottom: 20px;
     font-family: 'Bebas Neue', cursive;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 #DK_title{
    width:100%;
@@ -69,6 +66,8 @@ width:200px;
 margin: auto;
 border: 1px solid #f67;
 border-radius: 5px;
+padding-top: 20px;
+margin-top: 10px;
 background-color: #f67;
 }
 #DK_homelastdiv>P{
@@ -80,7 +79,9 @@ background-color: #f67;
 cursor: pointer;
 }
 
-
+#DK_blackcolor{
+    margin-top: 5px;
+}
 
 
 
@@ -115,7 +116,7 @@ font-family: 'Roboto', sans-serif;
 }
 #DK_seclastdiv{
 height:360px;
-width:100%;
+
 /* border:1px solid black; */
 }
 #DK_secfirst{
