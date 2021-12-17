@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #DK_cont{
-    height:270px;
-    width:80%;
-    border:1px solid black;
+    height:170px;
+    background-color: whitesmoke;
+    color: #333;
+    padding: 30px;
     margin: auto;
     display: flex;
+    font-weight: lighter;
     justify-content: space-between;
 }
 
@@ -22,9 +29,8 @@
 #DK_flex>.DK_about>a,#DK_sister>a{
     text-decoration: none;
     display: block;
-    font-size: 20px;
     line-height: 30px;
-    color: black;
+    color: #333;
 }
 #DK_follow{
 height:100%;
@@ -127,11 +133,7 @@ text-decoration: underline;
     text-align: center;
 }
 }
-
-
-
 #DK_last{
-    width:80%;
     height:140px;
     border:1px solid #eee;
     background-color: #eee;
@@ -140,13 +142,16 @@ text-decoration: underline;
     margin: auto;
 }
 #DK_copy{
-
+    width: 100%;
     text-align: center; 
 }
 #DK_belowcopy{
     text-align:left;
     width:90%;
     margin: auto;   
+}
+.DK_belowp{
+    line-height: 30px;
 }
 .DK_red{
     text-decoration: none;
