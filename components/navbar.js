@@ -197,7 +197,7 @@ function navbar() {
                     alt=""
                   /><span
                     >Hair Straightening Vs. Hair Smoothing: Differences,
-                    Side Effects, And Maintenance Tips</span
+                    Side Effects, And..</span
                   ></a
                 >
               </li>
@@ -264,7 +264,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/01/46-Top-5-VLCC-Bridal-Makeup-Packages-ss-267x300.jpg.webp"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/01/Top-10-Acne-Control-Products-267x300.jpg.webp"
                     alt=""
                   /><span>Top 5 VLCC Bridal Makeup Packages</span></a
                 >
@@ -272,7 +272,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/12/How-To-Apply-Bridal-Eye-Makeup-Perfectly-1-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/12/1639-Bust-Away-Pimples-6-Drugstore-Face-Packs-For-Pimple-Prone-Skin--267x300.jpg.webp"
                     alt=""
                   /><span
                     >How To Apply Bridal Eye Makeup Perfectly?</span
@@ -282,7 +282,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/10/Look-Perfect-For-Your-Special-Day-Bridal-Makeup-Tips-For-Dry-Skin-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/10/How-To-Get-Rid-Of-Heat-Pimples-Naturally-1-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Look Perfect For Your Special Day – Bridal Makeup Tips
@@ -293,7 +293,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2015/08/1513_Top-10-Bridal-Makeup-Packages-In-India-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2018/11/15-Best-Pimple-Patches-For-Pimple-Free-Spotless-Skin-Banner-267x300.jpg.webp"
                     alt=""
                   /><span>Top 10 Bridal Makeup Packages In India</span></a
                 >
@@ -301,7 +301,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/750-Top-10-Lakme-Bridal-Salon-Packages-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/12/40-Top-10-Topical-Medicinal-Creams-To-Treat-Your-Pimples_237515920-267x300.jpg.webp"
                     alt=""
                   /><span>Top 10 Lakme Bridal Salon Packages</span></a
                 >
@@ -309,7 +309,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/1300-Best-Bridal-Makeup-Kits-Available-In-India-Our-Top-10-ss-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/11/7-Simple-Ways-To-Use-Banana-Peel-To-Treat-Acne-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Best Bridal Makeup Kits Available In India - Our Top
@@ -342,7 +342,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/01/46-Top-5-VLCC-Bridal-Makeup-Packages-ss-267x300.jpg.webp"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2015/03/10-Stylish-Bob-Hairstyles-For-Oval-Faces-1-267x300.jpg.webp"
                     alt=""
                   /><span>Top 5 VLCC Bridal Makeup Packages</span></a
                 >
@@ -350,7 +350,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/12/How-To-Apply-Bridal-Eye-Makeup-Perfectly-1-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/02/Top-10-Japanese-Short-Bob-Hairstyles-You-Should-Try-267x300.jpg.webp"
                     alt=""
                   /><span
                     >How To Apply Bridal Eye Makeup Perfectly?</span
@@ -360,7 +360,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/10/Look-Perfect-For-Your-Special-Day-Bridal-Makeup-Tips-For-Dry-Skin-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/01/Latest-And-Most-Popular-Messy-Bob-Hairstyles-For-Women-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Look Perfect For Your Special Day – Bridal Makeup Tips
@@ -371,7 +371,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2015/08/1513_Top-10-Bridal-Makeup-Packages-In-India-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/01/50-Most-Popular-Bob-Shaped-Hairstyles-267x300.jpg.webp"
                     alt=""
                   /><span>Top 10 Bridal Makeup Packages In India</span></a
                 >
@@ -379,7 +379,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/750-Top-10-Lakme-Bridal-Salon-Packages-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/01/20-Stunning-Bob-Haircuts-With-Bangs-1-267x300.jpg.webp"
                     alt=""
                   /><span>Top 10 Lakme Bridal Salon Packages</span></a
                 >
@@ -387,7 +387,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/1300-Best-Bridal-Makeup-Kits-Available-In-India-Our-Top-10-ss-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2015/05/Chic-Feathered-Hairstyles-Banner-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Best Bridal Makeup Kits Available In India - Our Top
@@ -401,6 +401,7 @@ function navbar() {
         </li>
         <li>
           <a
+          id="fifth-nav-link"
             href="health.html"
             >health and wellness</a
           >
@@ -419,7 +420,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/01/46-Top-5-VLCC-Bridal-Makeup-Packages-ss-267x300.jpg.webp"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2020/08/11-Best-Exercise-Bikes-For-Seniors1-267x300.jpg.webp"
                     alt=""
                   /><span>Top 5 VLCC Bridal Makeup Packages</span></a
                 >
@@ -427,7 +428,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/12/How-To-Apply-Bridal-Eye-Makeup-Perfectly-1-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/08/11-Best-Tennis-Shoes-For-Women-With-Wide-Feet--2021-267x300.jpg.webp"
                     alt=""
                   /><span
                     >How To Apply Bridal Eye Makeup Perfectly?</span
@@ -437,7 +438,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/10/Look-Perfect-For-Your-Special-Day-Bridal-Makeup-Tips-For-Dry-Skin-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/Yoga-And-Exercises-To-Relieve-Constipation-1-1-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Look Perfect For Your Special Day – Bridal Makeup Tips
@@ -448,7 +449,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2015/08/1513_Top-10-Bridal-Makeup-Packages-In-India-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2020/09/10-Best-Comfortable-Shoes-For-Jumping-Rope-267x300.jpg.webp"
                     alt=""
                   /><span>Top 10 Bridal Makeup Packages In India</span></a
                 >
@@ -456,7 +457,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/750-Top-10-Lakme-Bridal-Salon-Packages-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/03/9-Best-Ayurvedic-Products-For-Increasing-Height-267x300.jpg.webp"
                     alt=""
                   /><span>Top 10 Lakme Bridal Salon Packages</span></a
                 >
@@ -464,7 +465,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/1300-Best-Bridal-Makeup-Kits-Available-In-India-Our-Top-10-ss-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2020/06/11-Best-Fitness-Trackers-For-Kids-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Best Bridal Makeup Kits Available In India - Our Top
@@ -478,6 +479,7 @@ function navbar() {
         </li>
         <li>
           <a
+          id="sixth-nav-link"
             href="news.html"
             >news</a
           >
@@ -496,7 +498,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2014/01/46-Top-5-VLCC-Bridal-Makeup-Packages-ss-267x300.jpg.webp"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/hayu-banner-267x300.jpg.webp"
                     alt=""
                   /><span>Top 5 VLCC Bridal Makeup Packages</span></a
                 >
@@ -504,7 +506,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/12/How-To-Apply-Bridal-Eye-Makeup-Perfectly-1-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/Himalaya-banner-267x300.jpg.webp"
                     alt=""
                   /><span
                     >How To Apply Bridal Eye Makeup Perfectly?</span
@@ -514,7 +516,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2012/10/Look-Perfect-For-Your-Special-Day-Bridal-Makeup-Tips-For-Dry-Skin-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/5-Travel-Essentials-Every-Woman-Must-Carry-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Look Perfect For Your Special Day – Bridal Makeup Tips
@@ -525,7 +527,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2015/08/1513_Top-10-Bridal-Makeup-Packages-In-India-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/Himalaya_article_banner_final-1-1-2-267x300.jpg.webp"
                     alt=""
                   /><span>Top 10 Bridal Makeup Packages In India</span></a
                 >
@@ -533,7 +535,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/750-Top-10-Lakme-Bridal-Salon-Packages-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2020/02/Use-Himalaya-Fresh-Start-Oil-Clear-Face-Wash-Every-Morning-To-Get-Rid-Of-Your-Oily-Skin-1-267x300.jpg.webp"
                     alt=""
                   /><span>Top 10 Lakme Bridal Salon Packages</span></a
                 >
@@ -541,7 +543,7 @@ function navbar() {
               <li>
                 <a href=""
                   ><img
-                    src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/1300-Best-Bridal-Makeup-Kits-Available-In-India-Our-Top-10-ss-267x300.jpg"
+                    src="https://cdn2.stylecraze.com/wp-content/uploads/2021/12/Himalaya_article_banner_final-1-1-1-267x300.jpg.webp"
                     alt=""
                   /><span
                     >Best Bridal Makeup Kits Available In India - Our Top
@@ -559,17 +561,17 @@ function navbar() {
         <li><a href="products.html">products</a></li>
         <li>
           <a
-            href=""
+            href="about-us.html"
             id="last-nav-link"
             >about us</a
           >
           <div class="about-us-div">
             <ul class="dr-about-us">
-              <li><a href="">Our team</a></li>
-              <li><a href="">Edetorial policy</a></li>
-              <li><a href="">medical review board</a></li>
-              <li><a href="">expert panel</a></li>
-              <li><a href="">contact us</a></li>
+              <li><a href="about-us.html">Our team</a></li>
+              <li><a href="about-us.html">Edetorial policy</a></li>
+              <li><a href="about-us.html">medical review board</a></li>
+              <li><a href="about-us.html">expert panel</a></li>
+              <li><a href="about-us.html">contact us</a></li>
             </ul>
           </div>
         </li>
