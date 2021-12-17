@@ -4,7 +4,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel = "icon" href ="/download-modified.png">
     <title>Our Team - Style Craze</title>
-    <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet" href="/team.css">
+    <script src="https://kit.fontawesome.com/675a12bd74.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/footer.css">
   
 </head>
 <body>
@@ -20,7 +25,7 @@
     </div>
     <div id = "DK_dimple">
         <div id = "DK_pic">
-            <img src="dimple.png" alt="">
+            <img src="team/dimple.png" alt="">
         </div>
         <div id = "DK_dimplequalifi">
             <p class = "DK_COLOR">DIMPLE VARSHNEY</p>
@@ -32,7 +37,7 @@
       
     <div id = "DK_dimple">
         <div id = "DK_pic">
-            <img src="sonali.png"">
+            <img src="team/sonali.png"">
         </div>
         <div id = "DK_dimplequalifi">
             <p class = "DK_COLOR">SONALI GUPTA</p>
@@ -46,7 +51,7 @@
 
     <div id = "DK_dimple">
         <div id = "DK_pic">
-            <img src="sajan.png" alt="">
+            <img src="team/sajan.png" alt="">
         </div>
         <div id = "DK_dimplequalifi">
             <p class = "DK_COLOR">SAJAN MADAAN</p>
@@ -60,7 +65,7 @@
 
     <div id = "DK_dimple">
         <div id = "DK_pic">
-            <img src="durgesh.png" alt="">
+            <img src="team/durgesh.png" alt="">
         </div>
         <div id = "DK_dimplequalifi">
             <p class = "DK_COLOR">DURGESH KUMAR RAI</p>
@@ -72,9 +77,9 @@
 
 
 
-    <div id = "DK_dimple">
+    <div id = "DK_dimple" >
         <div id = "DK_pic">
-            <img src="deepak1.png" alt="">
+            <img src="team/deepak1.png" alt="">
         </div>
         <div id = "DK_dimplequalifi">
             <p class = "DK_COLOR">DEEPAK KUMAR KARN</p>
@@ -83,5 +88,15 @@
             </p>
         </div>
     </div>
+    <div id = "DK_main"class="dK_lastMargin"></div>
+    <div id = "DK_last"></div>
 </body>
 </html>
+<script type="module">
+    let DK_main =  document.getElementById("DK_main")
+    import footer from "./components/footer.js"
+    DK_main.innerHTML = footer()
+    let DK_last  =document.getElementById("DK_last")
+    import copy from "./components/copy.js"
+    DK_last.innerHTML = copy()
+</script>
