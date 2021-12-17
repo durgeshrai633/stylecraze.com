@@ -11,7 +11,9 @@
 
     <!-- linked css file -->
     <link rel="stylesheet" href="/styles/homepage.css" />   
-    <link rel="stylesheet" href="/styles/navbar.css" />   
+    <link rel="stylesheet" href="/styles/navbar.css" /> 
+    <link rel="stylesheet" href="./styles/footer.css">
+
     <script
       src="https://kit.fontawesome.com/15dfb88336.js"
       crossorigin="anonymous"
@@ -242,10 +244,23 @@
         </div> 
 <!-------------------Deepak -------------------> 
     </div>
+    <div id = "DK_main"></div>
+    <div id = "DK_last"></div>
 </body>
 </html>
 
 
 <script type="module" src="/scripts/navscript.js"></script>
+<script type="module">
+    let DK_main =  document.getElementById("DK_main")
+    import footer from "./components/footer.js"
+    DK_main.innerHTML = footer()
 
+
+
+    let DK_last  =document.getElementById("DK_last")
+    import copy from "./components/copy.js"
+    DK_last.innerHTML = copy()
+
+</script>
 
