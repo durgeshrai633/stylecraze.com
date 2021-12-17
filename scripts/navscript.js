@@ -50,8 +50,6 @@ fourthNavLink.addEventListener("mouseout", () => {
   toggleMakeUpOff(hairstyle);
 });
 
-
-
 // health listener
 var fifthNavLink = document.getElementById("fifth-nav-link");
 fifthNavLink.addEventListener("mouseover", () => {
@@ -61,7 +59,6 @@ fifthNavLink.addEventListener("mouseout", () => {
   toggleMakeUpOff(health);
 });
 
-
 var sixthNavLink = document.getElementById("sixth-nav-link");
 sixthNavLink.addEventListener("mouseover", () => {
   toggleMakeUp(news);
@@ -70,9 +67,80 @@ sixthNavLink.addEventListener("mouseout", () => {
   toggleMakeUpOff(news);
 });
 
+// login sign up form area start from here
+var registerButton = document.getElementById("register-link");
+var loginForm = document.getElementById("log-in-form-div");
+var signUpForm = document.getElementById("sign-up-form-div");
+
+registerButton.addEventListener("click", () => {
+  loginForm.style.display = "none";
+  signUpForm.style.display = "flex";
+});
+
+var loginButton = document.getElementById("login-link");
+
+loginButton.addEventListener("click", () => {
+  loginForm.style.display = "flex";
+  signUpForm.style.display = "none";
+});
+
+var modal = document.getElementById("modal-container");
+var closeModel = document.getElementById("closeModel");
+closeModel.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+var openModal = document.getElementById("open-model");
+openModal.addEventListener("click", () => {
+  modal.style.display = "flex";
+});
+
+// sign up of a user
+var users = JSON.parse(localStorage.getItem("users")) || [];
+
+var signUpUserButton = document.getElementById("signUpUser");
+signUpUserButton.addEventListener("click", () => {
+  var user = {
+    username: document.getElementById("sname").value,
+    mobile: document.getElementById("smobile").value,
+    password: document.getElementById("spsw").value,
+  };
+
+  if (user.username == "" || user.mobile || "" || user.password == "") {
+    alert("Please enter required details!");
+  } else {
+    users.push(user);
+    localStorage.setItem("users", JSON.stringify(users));
+    alert(users);
+  }
+});
 
 
+// log in of a user
 
+var logInUserButton = document.getElementById("logInUser");
+logInUserButton.addEventListener("click",()=>{
+  var username = document.getElementById("uname").value;
+  var password = document.getElementById("psw").value;
+  console.log(username);
+
+  for(var i = 0; i < users.length;i++){
+    if(users[i].username == username && users[i].password == password){
+      document.getElementById("open-model").innerHTML = `<i class="fas fa-user"></i>`;
+      modal.style.display = "none";
+      localStorage.setItem("currentUser",username);
+      break;
+    }
+  }
+})
+var currentUser = localStorage.getItem("currentUser");
+if(currentUser == null){
+
+}else{
+  document.getElementById("open-model").innerHTML = `<i class="fas fa-user"></i>`;
+}
+
+// login signup area ends here
 
 var lastNavLink = document.getElementById("last-nav-link");
 console.log(navfirstlink.textContent);

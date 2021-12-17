@@ -1,5 +1,65 @@
 function navbar() {
-  return `<div id="dr-left-menu">
+  return `
+  <div id="user-login-icon-div">
+        <span id="open-model"><i class="far fa-user"></i></span>
+      </div>
+      <div id="modal-container">
+      <div id="modal">
+        <div class="form-div" id="log-in-form-div">
+          <label for="uname"><b>Username:</b></label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="uname"
+            required
+            id="uname"
+          />
+          <label for="psw"><b>Password:</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+            id="psw"
+          />
+          <button id="logInUser">Login</button>
+
+          <div><p>New User? <span id="register-link">Register here</span></p></div>
+        </div>
+        <div class = "form-div" id="sign-up-form-div">
+        <label for="sname"><b>Username:</b></label>
+<input
+  type="text"
+  placeholder="Enter Username"
+  name="sname"
+  required
+  id="sname"
+/>
+<label for="smobile"><b>Mobile No:</b></label>
+<input
+  type="number"
+  placeholder="Enter Mobile No"
+  name="smobile"
+  id="smobile"
+  required
+/>
+
+<label for="spsw"><b>Password:</b></label>
+<input
+  type="password"
+  placeholder="Enter Password"
+  name="spsw"
+  id="spsw"
+  required
+/>
+<button id="signUpUser">Sign Up</button>
+
+<div><p>Already a User? <span id="login-link">Log in here</span></p></div>
+        </div>
+        <i class="far fa-times-circle" id="closeModel"></i>
+      </div>
+    </div>
+  <div id="dr-left-menu">
     <div class="dr-hamburger-div">
       <span"><i class="fas fa-bars"></i></span>
     </div>
@@ -567,7 +627,7 @@ function navbar() {
           >
           <div class="about-us-div" id="about-us-dropdown">
             <ul class="dr-about-us">
-              <li><a href="about-us.html">Our team</a></li>
+              <li><a href="team.html">Our team</a></li>
               <li><a href="about-us.html">Edetorial policy</a></li>
               <li><a href="about-us.html">medical review board</a></li>
               <li><a href="about-us.html">expert panel</a></li>
