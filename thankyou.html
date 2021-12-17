@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thankyou</title>
+    <link rel="stylesheet" href="/styles/navbar.css" />   
+    <script src="https://kit.fontawesome.com/15dfb88336.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/675a12bd74.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/thankyou.css">
+</head>
+<body>
+    <header id="dr-header"></header>
+    <div id="thankyoubox">
+        <h1>Thankyou for your order.Your Order is successfully placed.</h1>
+        <hr>
+        <br>
+        <br>
+        <p><span>A conformation mail has been send to your registered E-mail Id.</span></p>
+        <p><span>Order No.:-</span>StYle-12345678</p>
+            You can track your order from link given in your mail
+            <br>
+
+        <div id="goToHome"><a href="homepage.html">Shop More</a></div>
+    </div>
+
+    <div id = "DK_main"></div>
+    <div id = "DK_last"></div>
+</body>
+</html>
+<script type="module" src="/scripts/navscript.js"></script>
+<script type="module">
+    let DK_main =  document.getElementById("DK_main")
+    import footer from "./components/footer.js"
+    DK_main.innerHTML = footer()
+  
+  
+  
+    let DK_last  =document.getElementById("DK_last")
+    import copy from "./components/copy.js"
+    DK_last.innerHTML = copy()
+  
+  </script>

@@ -2,6 +2,9 @@
     margin: 0;
     padding:0;
 }
+#DK_main{
+    margin-top: 1500px;
+}
 #navDiv{
     height: 100px;
     border:1px solid #ff5a78;
