@@ -2,19 +2,49 @@
     margin: 0;
     padding: 0;
     font-family: Poppins,Poppins-Hindi,sans-serif;
-    color: #333;
     font-weight: lighter;
   }
+  #sol{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+}
+#sol .sli a {
+    text-decoration: none;
+    color:  #ff5a78;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
 #cartcont{
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     font-weight: 600;
     height: 800px;
 }
+.makeupDiv:hover{
+    background-color: white;
+    cursor: pointer;  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.1);
+
+}
 #itemsdiv{
-    width: 65%;
+    width: 60%;
+    margin-right: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,31%);
+    height: 300px;
+    grid-gap: 2%;
+}
+.makeupDiv{
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
 }
 
 #infodiv{
@@ -281,3 +311,7 @@
 
     width: 40px;
   }
+#cartItems{
+    margin-left:45%;
+    color: #ff5a78;
+}

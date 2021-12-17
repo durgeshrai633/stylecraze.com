@@ -8,6 +8,7 @@ function display(itms){
 
   itms.forEach(el => {
     let makeupDiv = document.createElement("div");
+    makeupDiv.setAttribute("class","makeupDiv")
     let img = document.createElement("img");
     img.src = el.image_link;
     let name = document.createElement("p");
