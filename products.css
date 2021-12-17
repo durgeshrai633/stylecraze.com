@@ -82,7 +82,11 @@ body{
     font-size: 16px;
     border-bottom: 2px solid var(--readmore_border_bottom);
     letter-spacing: 0.5px;
-   
+    padding: 4%;
+    background-color: var(--prod_category_color);
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
 }
 .dVproduct_categ,.dVproduct_title,.dVproduct_desc,.dVproduct_readMore{
     font-family: var(--desc_fontfamily);
