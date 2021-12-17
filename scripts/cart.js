@@ -1,11 +1,10 @@
 var cartItems = JSON.parse(localStorage.getItem("cartItm")) ||  [];
-console.log(cartItems);
 
 var mainDiv = document.getElementById("itemsdiv");
 display()
 
 function display(){
-  console.log(cartItems)
+
     
   cartItems.forEach(el => {
     let makeupDiv = document.createElement("div");
@@ -44,12 +43,18 @@ function display(){
     deletebtn.textContent = "delete";
     deletebtn.innerHTML = "<i class='far fa-trash-alt fa-2x'></i>"
     deletebtn.addEventListener("click",function(){
-        let index = findIndex(el,cartItems)
-        cartItems.splice(index,1);
-        console.log(cartItems,49);
-        localStorage.setItem("cartItm",JSON.stringify(cartItems))
-        mainDiv.innerHTML = null
-        display()    
+    let index = findIndex(el,cartItems)
+    cartItems.splice(index,1);
+    localStorage.setItem("cartItm",JSON.stringify(cartItems))
+    mainDiv.innerHTML = null
+    var Bill = cartItems.reduce(function(acc,cv){
+        return acc + Number(cv.price);
+    },0);
+    var Numberofitem = cartItems.length
+document.getElementById("itemqty").textContent=  Numberofitem
+    document.getElementById("itemprice").textContent= Bill +"$"
+    document.getElementById("totalprice").textContent= Bill +"$"
+    display()    
        
     });
            

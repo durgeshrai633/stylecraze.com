@@ -8,9 +8,16 @@
     <title>Items</title>
     <link rel = "icon" href ="download-modified.png">
     <link rel="stylesheet" href="/styles/item.css">
+    <link rel="stylesheet" href="/styles/navbar.css" />   
+    <script src="https://kit.fontawesome.com/15dfb88336.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/675a12bd74.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
-    <div id="navDiv"></div>
+    <header id="dr-header"></header>
     <ol id="sol">
         <li class="sli">
           <a href="index.html">Home</a>
@@ -29,7 +36,7 @@
             <div id="sright_top">
                 <p id="snam"></p>
                 <p id="sprod"><span id="sprod_id"></span><span id="sstar">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                <p id="sprice"><span id="spayable"></span>MRP:&#8377;<span id="smrp"></span><span>(Inclusive of all taxes)</span></p>
+                <p id="sprice"><span id="spayable"></span></p>
                 <p id="semi"><span>EMI starting on order above &#8377;3,765</span><a href="#top">SEE EMI OPTIONS</a></p>
             </div>
             <div id="sright_second">
@@ -49,7 +56,6 @@
                     <span>Shipping Free:- On Order Above &#8377;999/-</span>
                 </div>
                 <div id="srb_content">
-                    <button id="saddToCart">Add to Cart</button>
                     <button id="sbuyNow">Buy Now</button>
                 </div>
             </div>
@@ -80,6 +86,21 @@
             <p class="sreviewp">It comes in a super cute packaging with bright color pack which is attractive . The product is in stick form which is really easy to use and is travel friendly. There are shades to choose from which is great. It really moisturises your lips.</p>
         </div>
     </div>
+    <div id = "DK_main"></div>
+<div id = "DK_last"></div>
 </body>
 </html>
 <script src="/scripts/item.js"></script>
+<script type="module" src="/scripts/navscript.js"></script>
+<script type="module">
+    let DK_main =  document.getElementById("DK_main")
+    import footer from "./components/footer.js"
+    DK_main.innerHTML = footer()
+
+
+
+    let DK_last  =document.getElementById("DK_last")
+    import copy from "./components/copy.js"
+    DK_last.innerHTML = copy()
+
+</script>

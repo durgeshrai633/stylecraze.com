@@ -7,8 +7,14 @@ async function showProducts1(data, location)
             if(i <= 28)
             {
             let makeupDiv = document.createElement("div");
+            
             let img = document.createElement("img");
+            
             img.src = el.image_link;
+            img.addEventListener("click",function goToCart(){
+                localStorage.setItem("iData",JSON.stringify(el))
+                window.location.href="item.html";
+            });
             let name = document.createElement("p");
             name.innerText = el.name;
             let price = document.createElement("p");

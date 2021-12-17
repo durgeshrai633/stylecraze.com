@@ -1,30 +1,19 @@
-var item = JSON.parse(localStorage.getItem("itemData")) || [];
+var item = JSON.parse(localStorage.getItem("iData")) || [];
 console.log(item);
 var img = document.getElementById("smainImg");
-img.src = item.image_url;
+img.src = item.image_link;
 var nam = document.getElementById("snam");
 nam.textContent = item.name;
 var prod_id = document.getElementById("sprod_id");
 prod_id.textContent = `PRODUCT ID : ${item.id}`;
 var price = document.getElementById("spayable");
-price.innerHTML = `<span>&#8377;${item.price}<\span>`;
-var realPrice = document.getElementById("smrp");
-realPrice.innerHTML = `<span>${item.realPrice}<\span>`;
+price.innerHTML = `<span>Price: $${item.price}<\span>`;
 
-var cart = JSON.parse(localStorage.getItem("cartItems")) || [];
-
-var cartbtn = document.getElementById("saddToCart");
-cartbtn.addEventListener("click", function() {
-  addToCart(item);
-  alert("Item Added To Cart")
-});
-function addToCart(item) {
-  cart.push(item);
-  localStorage.setItem("cartItems", JSON.stringify(cart));
-}
 
 var buyNow = document.getElementById("sbuyNow");
 buyNow.addEventListener("click", function() {
-  addToCart(item);
-  window.location.href = "finalcart.html";
+  let cartItms = JSON.parse(localStorage.getItem("cartItm")) || []
+  cartItms.push(item)
+  localStorage.setItem("cartItm",JSON.stringify(cartItms))
+  window.location.href = "cart.html";
 });
