@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Poppins,Poppins-Hindi,sans-serif;
+}
+#navDiv{
+  height: 100px;
+  border:1px solid #ff5a78;
+  margin-bottom: 20px;
+}
+#sol{
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  display: flex;
+  list-style-type: none;
+  font-size: 18px;
+}
+#sol .sli a {
+  text-decoration: none;
+  color:  #ff5a78;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.sitem_container {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif ;
+}
+/* ---------------left--------------- */
+.sleft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.sleft_right {
+  width: 78%;
+  box-shadow: rgba(14, 30, 37, 0.1) 0px 1px 2px 0px, rgba(14, 30, 37, 0.1) 0px 1px 8px 0px;
+} 
+.sleft_right #smainImg {
+  width: 100%;
+}
+/* -----------right----------- */
+.sright {
+  width: 50%;
+  height: 100%;
+}
+/* ---right top--- */
+#sright_top {
+  margin-bottom: 12px;
+}
+#sright_top p{
+  padding: 8px;
+}
+#snam {
+  font-size: 20px;
+  font-weight: bold;
+}
+#sright_top span {
+  margin-right: 10px;
+}
+#sstar {
+  color: #ff9900;
+}
+#spayable {
+  font-weight: bold;
+  font-size: 22px;
+}
+#sprod,#sprice{
+  font-weight: bold;
+  color: #fe5c75;
+}
+#semi a {
+  color: #fe5c75;
+  text-decoration: none;
+}
+/* ---right second--- */
+#srs_heading {
+  border-bottom: 1.5px solid #fe5c75;;
+  padding-bottom: 8px;
+}
+#srs_heading span:nth-child(2){
+  font-weight: 600;
+  font-size: 16px;
+}
+#srs_heading span:nth-child(3){
+  color: #fe5c75;
+}
+#srs_heading a{
+  color: #fe5c75;
+  text-decoration: none;
+}
+
+/* ---right bottom--- */
+#sright_bottom {
+    margin: 35px 0;
+}
+#srb_heading {
+    border-bottom: 1.5px solid #fe5c75;
+    padding-bottom: 8px;
+}
+#srb_heading span {
+    font-size: 16px;
+    font-weight: 600;
+} 
+#srs_content{
+  padding-top: 8px;
+}
+#srb_content button {
+  padding: 10px 70px;
+  border-radius: 20px;
+  margin: 25px 40px 10px 0;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+#srb_content button:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#saddToCart {
+    background-color: #fe5c75;
+    color: white;
+}
+#sbuyNow {
+  background-color: #fe5c75;
+  color: white; 
+}
+#sgridreview{
+  display: grid;
+  grid-template-columns: repeat(2,40%);
+  margin-bottom:30px;
+  grid-gap: 5%;
+  margin-left: 10%;
+}
+.sreview{
+  padding: 10px;
+  height: 200px;
+
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-top: 20px;
+
+}
+.sreviewh5{
+  color: #fe5c75;
+}
+.simgname{
+  display: flex;
+  padding: 10px;
+}
+.sreviewimg{
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius:30px;
+}
