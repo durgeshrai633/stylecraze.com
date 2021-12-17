@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-header{
+header {
   box-shadow: -1px 7px 20px -7px #afa2a2;
   padding-block: 10px;
   margin-bottom: 50px;
@@ -12,12 +12,12 @@ header{
   width: 80%;
   min-width: 800px;
   align-self: right;
-  margin:10px auto;
+  margin: 10px auto;
   justify-content: right;
   gap: 20%;
 }
 
-#dr-left-menu{
+#dr-left-menu {
   display: none;
 }
 
@@ -45,7 +45,7 @@ header{
 .dr-container {
   width: 80%;
   display: flex;
-  margin:20px auto;
+  margin: 20px auto;
 }
 
 .dr-container > ul {
@@ -171,36 +171,36 @@ a {
   .dr-nav-search > input {
     flex-basis: 95%;
   }
-  #dr-left-menu{
+  #dr-left-menu {
     display: block;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding: 10px;
   }
-  .dr-left-menu-div{
-     display: none; 
+  .dr-left-menu-div {
+    display: none;
   }
 
-  .dr-left-menu-div > ul:first-child{
+  .dr-left-menu-div > ul:first-child {
     list-style-type: none;
     margin-left: 0;
     /* width: 100%; */
   }
-  .dr-left-menu-div > ul:first-child > li{
-    border: 2px solid red;
+  .dr-left-menu-div > ul:first-child > li {
+    /* border: 2px solid red; */
     position: relative;
   }
 
-  .dr-left-menu-div > ul:first-child > li > a{
+  .dr-left-menu-div > ul:first-child > li > a {
     display: inline-block;
     padding: 10px 15px;
   }
-  .dr-left-menu-div > ul:first-child > li > a::after{
+  .dr-left-menu-div > ul:first-child > li > a::after {
     content: ">";
     position: absolute;
     right: 5%;
     font-size: 18px;
   }
-  .dr-left-menu-div > ul:first-child > li > a:hover{
+  .dr-left-menu-div > ul:first-child > li > a:hover {
     color: #fe5c75;
   }
 }
