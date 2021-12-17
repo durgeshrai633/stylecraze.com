@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/675a12bd74.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />  
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        
+
+        <link rel="stylesheet" href="payment.css">
+        
+    <title>Document</title>
+</head>
+<body>
+    <div id = "DK_Payment">
+        <div id = "DK_paytmtext">Payment Method</div><hr>
+        <div id = "DK_credit">
+            <div id = "DK_creditimg">
+             <div> <i class="fas fa-credit-card"></i></div>
+                <div id = "DK_text">Credit Card</div>
+            </div>
+            <div id = "DK_creditarrow">
+                <div id ="DK_lowerarrow"><i class="fas fa-chevron-down"></i></div>
+                <div id ="DK_upperarrow"><i class="fas fa-chevron-up"></i></div>
+            </div>
+        </div>
+
+        <div id="DK_first">
+            <input id="DK_cardNumber" type="number" placeholder="Card Number*">
+            <select name="" id="DK_select">
+                <option value="">Expiry Month</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+
+            <select name="" id="DK_year">
+                <option value="">Expiry Year</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+                <option value="2031">2031</option>
+                <option value="2032">2032</option>
+            </select>
+
+            <div id="dK_second">
+                <input id="DK_name" type="text" placeholder="Name On Card*">
+                <input id="DK_ccv" type="password" placeholder="CVV">
+                <button id="DK_btn">Pay Now</button>
+            </div>
+        </div>
+   <hr>
+
+   <div id = "DK_credit">
+    <div id = "DK_creditimg">
+     <div> <i class="far fa-credit-card"></i></div>
+        <div id = "DK_text">Debit Card</div>
+    </div>
+    <div id = "DK_creditarrow">
+        <div id ="DK_lowerarrow"><i class="fas fa-chevron-down"></i></div>
+    </div>
+</div><hr>
+
+<div id = "DK_credit">
+    <div id = "DK_creditimg">
+     <div><i class="fas fa-university"></i></div>
+        <div id = "DK_text">Net Banking</div>
+    </div>
+    <div id = "DK_creditarrow">
+        <div id ="DK_lowerarrow"><i class="fas fa-chevron-down"></i></div>
+    </div>
+</div><hr>
+
+<div id = "DK_credit">
+    <div id = "DK_creditimg">
+     <div> <i class="far fa-money-bill-alt"></i></div>
+        <div id = "DK_text">Cash On Delivery</div>
+    </div>
+    <div id = "DK_creditarrow">
+        <div id ="DK_lowerarrow"><i class="fas fa-chevron-down"></i></div>
+    </div>
+</div>
+
+    </div>
+</body>
+</html>
+
+<script src = "payment.js"></script>
