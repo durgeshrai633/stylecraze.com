@@ -1,5 +1,4 @@
 var cartItems = JSON.parse(localStorage.getItem("cartItm")) ||  [];
-console.log(cartItems);
 display(cartItems)
 
 var mainDiv = document.getElementById("itemsdiv");
@@ -50,3 +49,41 @@ function display(itms){
   });
     
   }
+
+  var qty = cartItems.length;
+  var totalqty = document.getElementById("itemqty")
+  totalqty.textContent = "0"+qty
+ 
+  var Bill = cartItems.reduce(function(acc,cv){
+      return acc + Number(cv.price)
+  },0);
+  var totalvalue = document.getElementById("itemprice")
+
+  totalvalue.textContent = Bill+"$"
+
+  var totalprice = document.getElementById("totalprice");
+  totalprice.textContent = Bill+"$"
+
+  var promo = document.getElementById("back")
+  promo.addEventListener("click",applypromo)
+  function applypromo(event){
+    var A = document.getElementById("couponinput").value
+    if(A == "style30"){
+        NewBill = Bill - (Bill*30)/100;
+        var totalvalue = document.getElementById("itemprice")
+
+        totalvalue.textContent = NewBill+"$"
+        var totalprice = document.getElementById("totalprice");
+        totalprice.textContent = NewBill+"$"
+    }
+  }
+
+  var checkout= document.getElementById("checkout")
+  checkout.addEventListener("click",goToPayment)
+
+  function goToPayment(){
+      window.open("payment.html")
+  }
+
+
+

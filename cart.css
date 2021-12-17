@@ -57,6 +57,7 @@
     padding-right: 18px;
     margin-top: 20px;
     padding-top: 40px;
+    background-color: #ffffff;
 }
 .payinfo h1{
     font-family: initial;
@@ -141,6 +142,7 @@
     margin-top: 20px;
     height: 60px;
    border-radius: 8px;
+   background-color: #ffffff;
 }
 #cartcoupon > div{
     width: 100%;
@@ -148,7 +150,7 @@
     display: flex;
     margin-top: 6px;
     border-radius: 3px;
-
+    background-color: #ffffff;
 }
 #cartcoupon input{
     flex-basis: 80%;
@@ -156,16 +158,17 @@
     outline: 0;
     padding-left: 10px;
     font-size: 16px;
+    background-color: #ffffff;
 }
 #cartcoupon  button{
     color: #ff5a78;
     font-weight: bold;
 }
-.back{
+#back{
     background-color: transparent;
     border: 0;
 }
-.checkout{
+#checkout{
     height: 40px;
     background-color: #ff5a78;
     border-radius: 19px;
@@ -175,8 +178,6 @@
     border: 0;
     color:  #ffffff;
     margin-left: 10%;
-}
-#checkbottom{
     margin-top: 10%;
     margin-left: auto;
 }
