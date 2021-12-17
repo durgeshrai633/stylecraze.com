@@ -37,17 +37,17 @@
             <div id="cartcoupon" class="shadow">
                 <div>
                     <input type="text" placeholder="Enter coupon code" class="back" id="couponinput">
-                    <button class="back" onclick="checkcoupon()">Apply</button>
+                    <button id="back">Apply</button>
                 </div>
             </div>
             <div class="payinfo shadow">
                 <h1 id="pinkpay">Payment Details</h1>
                 <div class="costs">
-                    <div>Item total <span class="itemprice">₹</span></div>
+                    <div>Total Items <span id="itemqty"></span></div>
+                    <div>Total Value <span id="itemprice">$</span></div>
                     <div class="pintextteal">Delivery cost at  <span>Free</span> </div>
-                    <div>Today’s savings <span id="savings">₹</span> </div>
                     <hr >
-                    <div>Total price <span id="totalprice" >₹</span> </div>
+                    <div>Total price <span id="totalprice" >$</span> </div>
                 </div>
                 <div class="lft">
                 <input type="checkbox"> <label for="">
@@ -57,7 +57,7 @@
                         <span>Towards Donation for the underprivileged</span>  </label>
                 </div>
                 <div class="rgt lft">
-                    <button class="checkout" id="checkbottom">CHECKOUT</button>
+                    <button id="checkout">CHECKOUT</button>
                 </div>
             </div>
         </div>

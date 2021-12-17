@@ -69,5 +69,38 @@ function display(){
     }
   }
 
+var paymentDetails = JSON.parse(localStorage.getItem("paydetails"))||[];
+var Bill = cartItems.reduce(function(acc,cv){
+return acc + Number(cv.price);
+},0);
+
+var Numberofitem = cartItems.length
+document.getElementById("itemqty").textContent="Number of Items:-   " +  Numberofitem
+
+document.getElementById("itemprice").textContent="Total Bill:-   " +  Bill
+document.getElementById("totalprice").textContent="Total Bill:-   " +  Bill
+
+var promo = document.getElementById("back")
+promo.addEventListener("click",applypromo)
+function applypromo(){
+ var A = document.getElementById("couponinput").value
+ if(A == "style30"){
+     NewBill = Bill - (Bill*30)/100;
+     document.getElementById("itemprice").textContent="Total Bill:-   " +  NewBill
+     document.getElementById("totalprice").textContent="Total Bill:-   " +  NewBill
+ }
+}
+paymentDetails.push(Bill)
+localStorage.setItem("paydetails",JSON.stringify(paymentDetails))
+var checkout =document.getElementById("checkout")
+checkout.addEventListener("click",goToPay)
+function goToPay(){
+
+window.open("payment.html");
+}
+
+
+
+
   //To find Index of product in array
 

@@ -27,11 +27,12 @@ body{
     font-size: 17px;
     margin-bottom: 25px;
 }
-#DK_dimple{
-    height:250px;
-    width:60%;
+.DK_dimple{
+    height:200px;
+    width:70%;
     border:1px solid black;
-    box-shadow: 0px 1px 12px 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 20px;
     margin: auto;
     display: flex;
     font-family: 'Roboto', sans-serif;
