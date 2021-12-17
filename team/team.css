@@ -1,3 +1,8 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
 #DK_teamfirst{
     height:40px;
     width:30%;
@@ -5,10 +10,12 @@
     margin: auto;
     font-family: 'Roboto', sans-serif;
 }
+
 #DK_teamfirst>p{
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
+    margin-top:20% ;
 }
 #DK_teamsec{
     height:60px;
@@ -28,6 +35,29 @@
     margin: auto;
     display: flex;
     font-family: 'Roboto', sans-serif;
+}
+
+#dVnav-container{
+    width: 99.9%;
+    /* border: 1px solid rgb(228, 38, 101);  */
+    background-color: white;
+    z-index: 10;
+    height: 65px;
+    position: fixed;
+    top: 0%;
+    margin: 0px !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    vertical-align: top;
+}
+.dVaboutLogo{
+    cursor: pointer;
+    z-index: 9;
+    position: relative;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    transition: all .7s;
+    width: 25%;
+    padding-top: 5px;
 }
 #DK_pic>img{
     height:250px;

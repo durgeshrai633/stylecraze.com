@@ -18,13 +18,17 @@
     font-weight: lighter;
     font-family: sans-serif;
 }
+#DK_main{
+    margin: 10%;
+}
 #cartcont{
     width: 90%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     font-weight: 600;
-    height: 800px;
+    /*height: 800px; */    /*<---no need of height*/
+    margin-bottom: 20%;
 }
 .makeupDiv:hover{
     background-color: white;
@@ -57,6 +61,7 @@
     padding-right: 18px;
     margin-top: 20px;
     padding-top: 40px;
+    background-color: white;
 }
 .payinfo h1{
     font-family: initial;
@@ -141,6 +146,7 @@
     margin-top: 20px;
     height: 60px;
    border-radius: 8px;
+   background-color: white;
 }
 #cartcoupon > div{
     width: 100%;
