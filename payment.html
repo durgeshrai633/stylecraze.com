@@ -1,108 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <script src="https://kit.fontawesome.com/675a12bd74.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />  
+  <link rel="icon" type="png" sizes="512x512"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/payment.css" />
+  <link rel="stylesheet" href="/styles/navbar.css" /> 
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="cart.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-        
-
-        <link rel="stylesheet" href="/styles/payment.css">
-        
-    <title>Document</title>
 </head>
+
 <body>
-    <div id = "DK_Payment">
-        <div id = "DK_paytmtext">Payment Method</div><hr>
-        <div id = "DK_credit">
-            <div id = "DK_creditimg">
-             <div> <i class="fas fa-credit-card"></i></div>
-                <div id = "DK_text">Credit Card</div>
+    <header id="dr-header"></header>
+    <ol id="sol">
+        <li class="sli">
+          <a href="homepage.html">Home</a>
+        </li> » 
+        <li class="sli">
+            <a href="products1.html">Products</a>
+          </li> »
+        <li class="sli">
+          <a href="cart.html">Cart</a>
+        </li>
+    </ol>
+  <h3 class="payT">CHOOSE PAYMENT METHOD</h3>
+  <div class="containerPay">
+
+    <div class="credit-container">
+      <div>
+        <h3>Credit/Debit Card</h3>
+      </div>
+      <div>UPI</div>
+      <div>GooglePay</div>
+      <div>Net Banking</div>
+      <div>Cash on Delivery</div>
+      <div style="border:0px solid lightgrey">Gift Card</div>
+    </div>
+
+
+
+    <div class="credit-container1">
+      <div>
+        <h3>Credit/Debit Card</h3>
+      </div>
+      <input id="inputS" type="text" maxlength="16" placeholder="Card Number">
+      <h3>Expiry</h3>
+      <p><span><input id="Ssize" type="text" maxlength="2" placeholder="month"></span>
+        <span>/</span>
+        <span><input id="Ssize" type="text" maxlength="2" placeholder="year"></span>
+        <span id="Scolor"><input id="Ssize" type="text" maxlength="3" placeholder="CVV"><img
+            src="https://www.nykaafashion.com/assets/desktop/images/checkout/bank-card-back-side.png">at the back of the
+          card</span>
+      </p>
+
+      <p><span><input type="checkbox"></span>
+        <span>Save this card for future</span></p>
+      <button id="payNow">PAY NOW ></button>
+
+    </div>
+    <div id="orderPlaced">
+      <svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+        <path d=" M32 0c4.6537 0 8.7168 2.6461 10.7679 6.506a12.228 12.228 0 0 1 3.1041-.4018c3.0873 0 6.1728 1.1668 8.5149
+        3.5089 3.1345 3.1345 4.1616 7.6008 3.1071 11.619C61.354 23.2847 64 27.3463 64 32c0 4.6537-2.6447 8.7153-6.503
+        10.7679 1.0545 4.0198.0244 8.4845-3.1101 11.619-2.342 2.3421-5.4247 3.509-8.5119 3.509a12.2508 12.2508 0 0
+        1-3.1071-.4019C40.7153 61.354 36.6537 64 32 64c-4.6537 0-8.7168-2.6461-10.7679-6.506a12.2279 12.2279 0 0
+        1-3.1041.4018c-3.0873 0-6.1728-1.1668-8.5149-3.5089-3.1345-3.1345-4.1616-7.6008-3.1071-11.619C2.646 40.7153 0
+        36.6537 0 32c0-4.6537 2.6447-8.7153 6.503-10.7679-1.0545-4.0198-.0244-8.4845 3.1101-11.619 2.342-2.3421
+        5.4247-3.509 8.5119-3.509 1.0453 0 2.0908.1352 3.1071.4019C23.2847 2.646 27.3463 0 32 0zm12.6369 21.7798L27.4286
+        38.988l-8.0655-8.0655-2.1548 2.1548 10.2203 10.2202 19.363-19.363-2.1547-2.1548z" fill="#5CD285"
+          fill-rule="nonzero"></path>
+      </svg>
+      <h3>Your order placed successfully!</h3>
+      <h5>We are pleased to confirm your order</h5>
+      <h3>Continue Shopping</h3>
+    </div>
+    <div class="credit-container2">
+
+        <div class="payinfo shadow">
+            <h1 id="pinkpay">Payment Details</h1>
+            <div class="costs">
+                <div>Total Items <span id="itemqty"></span></div>
+                <div>Total Value <span id="itemprice">$</span></div>
+                <div class="pintextteal">Delivery cost at  <span>Free</span> </div>
+                <hr >
+                <div>Total price <span id="totalprice" >$</span> </div>
             </div>
-            <div id = "DK_creditarrow">
-                <div id ="DK_lowerarrow"><i class="fas fa-chevron-down"></i></div>
-                <div id ="DK_upperarrow"><i class="fas fa-chevron-up"></i></div>
+            <div class="lft">
+            <input type="checkbox"> <label for="">
+                <span>this a gift item?</span>  </label>
+                <br>
+                <input type="checkbox"> <label for="">
+                    <span>Towards Donation for the underprivileged</span>  </label>
             </div>
         </div>
+  </div>
+  </div>
+  <p class="bottomtext"><span class="material-icons">health_and_safety
+</span> Safe & Secure Payments | 100% Authentic Products</p>
 
-        <div id="DK_first">
-            <input id="DK_cardNumber" type="number" placeholder="Card Number*">
-            <select name="" id="DK_select">
-                <option value="">Expiry Month</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-            </select>
 
-            <select name="" id="DK_year">
-                <option value="">Expiry Year</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
-                <option value="2023">2023</option>
-                <option value="2024">2024</option>
-                <option value="2025">2025</option>
-                <option value="2026">2026</option>
-                <option value="2027">2027</option>
-                <option value="2028">2028</option>
-                <option value="2029">2029</option>
-                <option value="2030">2030</option>
-                <option value="2031">2031</option>
-                <option value="2032">2032</option>
-            </select>
-
-            <div id="dK_second">
-                <input id="DK_name" type="text" placeholder="Name On Card*">
-                <input id="DK_ccv" type="password" placeholder="CVV">
-                <button id="DK_btn">Pay Now</button>
-            </div>
-        </div>
-   <hr>
-
-   <div id = "DK_credit">
-    <div id = "DK_creditimg">
-     <div> <i class="far fa-credit-card"></i></div>
-        <div id = "DK_text">Debit Card</div>
-    </div>
-    <div id = "DK_creditarrow">
-        <div id ="DK_lowerarrow"><i class="fas fa-chevron-down"></i></div>
-    </div>
-</div><hr>
-
-<div id = "DK_credit">
-    <div id = "DK_creditimg">
-     <div><i class="fas fa-university"></i></div>
-        <div id = "DK_text">Net Banking</div>
-    </div>
-    <div id = "DK_creditarrow">
-        <div id ="DK_lowerarrow"><i class="fas fa-chevron-down"></i></div>
-    </div>
-</div><hr>
-
-<div id = "DK_credit">
-    <div id = "DK_creditimg">
-     <div> <i class="far fa-money-bill-alt"></i></div>
-        <div id = "DK_text">Cash On Delivery</div>
-    </div>
-    <div id = "DK_creditarrow">
-        <div id ="DK_lowerarrow"><i class="fas fa-chevron-down"></i></div>
-    </div>
-</div>
-
-    </div>
 </body>
-</html>
 
-<script src = "/scripts/payment.js"></script>
+</html>
+<script src="payment.js"></script>
+
+<script type="module" src="/scripts/navscript.js"></script>
+<script type="module">
+    let DK_main =  document.getElementById("DK_main")
+    import footer from "./components/footer.js"
+    DK_main.innerHTML = footer()
+
+
+
+    let DK_last  =document.getElementById("DK_last")
+    import copy from "./components/copy.js"
+    DK_last.innerHTML = copy()
+
+</script>
