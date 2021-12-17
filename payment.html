@@ -10,7 +10,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="/styles/payment.css" />
   <link rel="stylesheet" href="/styles/navbar.css" /> 
-  <link rel="stylesheet" href="./styles/footer.css">
   <link rel="stylesheet" href="cart.css">
 
 </head>
@@ -39,7 +38,7 @@
       <div>GooglePay</div>
       <div>Net Banking</div>
       <div>Cash on Delivery</div>
-      <div style="border:0px solid lightgrey">Gift Card</div>
+      <div>Gift Card</div>
     </div>
 
 
@@ -79,46 +78,11 @@
       <h5>We are pleased to confirm your order</h5>
       <h3>Continue Shopping</h3>
     </div>
-    <div class="credit-container2">
-
-        <div class="payinfo shadow">
-            <h1 id="pinkpay">Payment Details</h1>
-            <div class="costs">
-                <div>Total Items <span id="itemqty"></span></div>
-                <div>Total Value <span id="itemprice">$</span></div>
-                <div class="pintextteal">Delivery cost at  <span>Free</span> </div>
-                <hr >
-                <div>Total price <span id="totalprice" >$</span> </div>
-            </div>
-            <div class="lft">
-            <input type="checkbox"> <label for="">
-                <span>this a gift item?</span>  </label>
-                <br>
-                <input type="checkbox"> <label for="">
-                    <span>Towards Donation for the underprivileged</span>  </label>
-            </div>
-        </div>
   </div>
-  </div>
-  <p class="bottomtext"><span class="material-icons">health_and_safety
-</span> Safe & Secure Payments | 100% Authentic Products</p>
-
-
 </body>
 
 </html>
 <script src="payment.js"></script>
 
 <script type="module" src="/scripts/navscript.js"></script>
-<script type="module">
-    let DK_main =  document.getElementById("DK_main")
-    import footer from "./components/footer.js"
-    DK_main.innerHTML = footer()
 
-
-
-    let DK_last  =document.getElementById("DK_last")
-    import copy from "./components/copy.js"
-    DK_last.innerHTML = copy()
-
-</script>

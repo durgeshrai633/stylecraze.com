@@ -1,0 +1,31 @@
+h1{
+    color: #ff5a78;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+    color: black;
+}
+p{
+    color: #ff5a78;
+}
+hr{
+    width: 70%;
+    margin-left: 15%;
+}
+#thankyoubox{
+text-align: center;
+margin-bottom: 40px;
+}
+#goToHome{
+    margin-top: 30px;
+    height: 30px;
+    width:120px;
+    border:2px solid #ff5a78;
+    margin-left:45% ;
+    padding-top: 20px;
+}
+#goToHome a{
+    text-decoration: none;
+    color: #ff5a78;
+}

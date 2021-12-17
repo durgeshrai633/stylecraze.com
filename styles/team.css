@@ -6,7 +6,7 @@ body{
 #DK_teamfirst{
     height:40px;
     width:30%;
-    /* border:1px solid black; */
+    color: #f67;
     margin: auto;
     font-family: 'Roboto', sans-serif;
 }
@@ -20,7 +20,6 @@ body{
 #DK_teamsec{
     height:60px;
     width:60%;
-    /* border:1px solid black; */
     margin: auto;
     font-family: 'Roboto', sans-serif;
     text-align: left;
@@ -32,10 +31,13 @@ body{
     width:70%;
     border:1px solid black;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    margin-bottom: 20px;
     margin: auto;
     display: flex;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.DK_dimplequalifi{
+    padding-top: 20px;
 }
 
 #dVnav-container{
@@ -60,24 +62,26 @@ body{
     width: 25%;
     padding-top: 5px;
 }
-#DK_pic>img{
-    height:250px;
-    width:250px;
+.DK_pic>img{
+    height:200px;
+    width:200px;
     margin-right: 20px;
 }
 
 .DK_COLOR{
     color:#f67;
 }
-
+.dK_lastMargin{
+    margin-top: 10%;
+}
 @media screen and (min-width: 300px) and (max-width: 845px){
-    #DK_dimple{
+    .DK_dimple{
         display: block;
         height: 180%;
         width:140%;
         margin-top: 30px;
     }
-    #DK_dimplequalifi>p,#DK_teamfirst{
+    .DK_dimplequalifi>p,#DK_teamfirst{
         font-size: 22px;
     }
     #DK_teamfirst{

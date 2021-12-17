@@ -16,6 +16,8 @@ body {
   }
   .payT{
       padding-left:200px;
+      color: #ff5a78;
+      
   }
   .containerPay{
       display:flex;
@@ -26,6 +28,8 @@ body {
       width:300px;
       height:334px;
       border:1px solid lightgrey;
+      margin-top: 20px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   .credit-container1>div,.credit-container>div{
       height:40px;
@@ -44,9 +48,11 @@ body {
   }
   .credit-container1{
       width:450px;
-      height:350px;
+      height:334px;
       margin-left: 10px;
       border:1px solid lightgrey;
+      margin-top: 20px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   .credit-container2{
       width:350px;
