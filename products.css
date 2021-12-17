@@ -9,7 +9,6 @@
     --select_box_bgColor:#F5F5F5;
     --select_box_border:#C3C3C3 ;
 }
-
 body{
     background-color: var(--body_color);
     padding: 0;

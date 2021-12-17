@@ -90,12 +90,11 @@ function applypromo(){
      document.getElementById("totalprice").textContent="Total Bill:-   " +  NewBill
  }
 }
-paymentDetails.push(Bill)
-localStorage.setItem("paydetails",JSON.stringify(paymentDetails))
+
+localStorage.setItem("paydetails",JSON.stringify(Bill))
 var checkout =document.getElementById("checkout")
 checkout.addEventListener("click",goToPay)
 function goToPay(){
-
 window.open("payment.html");
 }
 
