@@ -565,7 +565,7 @@ function navbar() {
             id="last-nav-link"
             >about us</a
           >
-          <div class="about-us-div">
+          <div class="about-us-div" id="about-us-dropdown">
             <ul class="dr-about-us">
               <li><a href="about-us.html">Our team</a></li>
               <li><a href="about-us.html">Edetorial policy</a></li>
