@@ -8,10 +8,12 @@
     <link rel = "icon" href ="download-modified.png">
     <link rel="stylesheet" href="/styles/makeup.css">
     <link rel="stylesheet" href="/styles/navbar.css" />   
-    <script
-    src="https://kit.fontawesome.com/15dfb88336.js"
-    crossorigin="anonymous"
-  ></script>
+    <script src="https://kit.fontawesome.com/15dfb88336.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/675a12bd74.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
         <header id="dr-header"></header>
@@ -67,9 +69,20 @@
             <div class="spageno">»</div>
         </div>
     </div>
-    <div id="footer">
-    
-    </div>
+    <div id = "DK_main"></div>
+    <div id = "DK_last"></div>
 </body>
 </html>
 <script type="module" src="/scripts/navscript.js"></script>
+<script type="module">
+    let DK_main =  document.getElementById("DK_main")
+    import footer from "./components/footer.js"
+    DK_main.innerHTML = footer()
+  
+  
+  
+    let DK_last  =document.getElementById("DK_last")
+    import copy from "./components/copy.js"
+    DK_last.innerHTML = copy()
+  
+  </script>
