@@ -12,6 +12,7 @@
     display: flex;
     font-weight: lighter;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 #DK_flex{

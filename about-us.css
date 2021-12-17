@@ -23,7 +23,8 @@
     flex-direction: row;
     width: 70%;
     margin:auto;
-    /* border: 1px solid red; */
+    /* border: 2px solid red; */
+    /* height:auto; */
     font-family: var(--about-us-font-family);
    
     /* transform: translateY(20px); */
@@ -53,8 +54,9 @@
     background: #f5f5f5;
     border-radius: 5px;
     transition: .4s;
-    height: 300px;
-    top: 130px;
+    height: 230px;
+    /* top: 130px; */
+    margin-top: 100px;
 }
 #dVmake_fixed >ul{
     list-style: none;
