@@ -43,6 +43,3 @@ function display(el){
     makeupDiv.append(img,name,price,starsDiv,shades,deletebtn);
     itemsdiv.append(makeupDiv)
   }
-  
-
- 
