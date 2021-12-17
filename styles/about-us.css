@@ -9,7 +9,7 @@
     margin-top: 0px;
 }
 #dVnav-container{
-    width: 99%;
+    width: 100%;
     /* border: 1px solid rgb(228, 38, 101);  */
     background-color: white;
     z-index: 10;
@@ -45,7 +45,6 @@
     margin-right: 0;
     margin-left: 0px;
     /* border: 1px solid blue; */
-    
 }
 #dVmake_fixed{
     position: fixed;
@@ -68,6 +67,7 @@
 }
 .dVabout-us-cont2{
     width: 69%;
+    margin-left: 50px;
     /* border: 1px solid green; */
     transform: translateY(50px);
 }

@@ -75,10 +75,10 @@ return acc + Number(cv.price);
 },0);
 
 var Numberofitem = cartItems.length
-document.getElementById("itemqty").textContent="Number of Items:-   " +  Numberofitem
+document.getElementById("itemqty").textContent=  Numberofitem
 
-document.getElementById("itemprice").textContent="Total Bill:-   " +  Bill
-document.getElementById("totalprice").textContent="Total Bill:-   " +  Bill
+document.getElementById("itemprice").textContent= Bill +"$"
+document.getElementById("totalprice").textContent= Bill +"$"
 
 var promo = document.getElementById("back")
 promo.addEventListener("click",applypromo)
@@ -86,8 +86,8 @@ function applypromo(){
  var A = document.getElementById("couponinput").value
  if(A == "style30"){
      NewBill = Bill - (Bill*30)/100;
-     document.getElementById("itemprice").textContent="Total Bill:-   " +  NewBill
-     document.getElementById("totalprice").textContent="Total Bill:-   " +  NewBill
+     document.getElementById("itemprice").textContent= NewBill +"$"
+     document.getElementById("totalprice").textContent= NewBill +"$"
  }
 }
 

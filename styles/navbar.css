@@ -268,6 +268,9 @@ a {
   font-weight: 600;
   letter-spacing: 1px;
 }
+.far,.fas{
+  color: #fe5c75;
+}
 
 .fa-times-circle {
   position: absolute;
