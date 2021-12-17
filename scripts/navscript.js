@@ -52,7 +52,22 @@ fourthNavLink.addEventListener("mouseout", (e) => {
 
 
 
+var fifthNavLink = document.getElementById("fifth-nav-link");
+fifthNavLink.addEventListener("mouseover", (e) => {
+  toggleMakeUp(e);
+});
+fifthNavLink.addEventListener("mouseout", (e) => {
+  toggleMakeUpOff(e);
+});
 
+
+var sixthNavLink = document.getElementById("sixth-nav-link");
+sixthNavLink.addEventListener("mouseover", (e) => {
+  toggleMakeUp(e);
+});
+sixthNavLink.addEventListener("mouseout", (e) => {
+  toggleMakeUpOff(e);
+});
 
 var lastNavLink = document.getElementById("last-nav-link");
 console.log(navfirstlink.textContent);
