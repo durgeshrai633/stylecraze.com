@@ -10,10 +10,14 @@
     <link rel="stylesheet" href="/styles/navbar.css" />   
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/footer.css"> 
+  <script src="https://kit.fontawesome.com/15dfb88336.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header id="dr-header"></header>
+    <div id="dVnav-container"> 
+        <center><a href="homepage.html"><img class="dVaboutLogo" src="https://cdn2.stylecraze.com/wp-content/uploads/static-content/logos/sc-logo.png.webp" alt="Style Craze"></a></center>
+</div>
+
     <center><h1 class="DproductH1">Shop</h1></center>
     <div id="DslctCategory">
         <select name="" id="Dcateg" >
@@ -29,14 +33,22 @@
         <option value="Hair Care">Hair Care Ideas</option>
         </select>
     </div>
-
+    <ol id="sol">
+        <li class="sli">
+            <a href="homepage.html">Home</a>
+        </li> »
+        <li class="sli">
+          <a href="products.html">Products</a>
+        </li>
+    </ol>
     <div id="DproductCont"></div>
     <center><span id="dVnowMoredata"></span></center>
     <center><button id="dVloadMore">Load More</button></center>
+    <div id = "DK_main"></div>
+    <div id = "DK_last"></div>
 </body>
 </html>
 <script type="module" src="products.js"></script>
-<script type="module" src="/scripts/navscript.js"></script>
 <script type="module">
     let DK_main =  document.getElementById("DK_main")
     import footer from "./components/footer.js"
@@ -44,3 +56,4 @@
     let DK_last  =document.getElementById("DK_last")
     import copy from "./components/copy.js"
     DK_last.innerHTML = copy()
+</script>

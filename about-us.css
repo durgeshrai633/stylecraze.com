@@ -58,6 +58,21 @@
     top: 130px;
     padding: 1%;
 }
+#sol {
+    margin-bottom: 25px;
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: 20px;
+    position: relative;
+    top: 100px;
+}
+#sol .sli a {
+    text-decoration: none;
+    color: #ff5a78;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
 #dVmake_fixed >ul{
     list-style: none;
     /* text-align: center; */
