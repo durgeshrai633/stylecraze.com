@@ -18,6 +18,9 @@ body{
     flex-direction: column; */
     margin-top: 6%;
 }
+#DK_main{
+    margin-top: 20%;
+}
 #dVproducts1_cont{
     display: grid;
     grid-template-columns: repeat(4,23%);

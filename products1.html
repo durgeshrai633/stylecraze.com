@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="products1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/675a12bd74.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/footer.css">
+    
 </head>
 <body>
     <div id="dVmakeup">
@@ -54,6 +60,16 @@
     </div>
     <div id="dVproducts1_cont"></div>
     </div>
+    <div id = "DK_main"></div>
+    <div id = "DK_last"></div>
 </body>
 </html>
 <script src="products1.js" type="module"></script>
+<script type="module">
+    let DK_main =  document.getElementById("DK_main")
+    import footer from "./components/footer.js"
+    DK_main.innerHTML = footer()
+    let DK_last  =document.getElementById("DK_last")
+    import copy from "./components/copy.js"
+    DK_last.innerHTML = copy()
+</script>
