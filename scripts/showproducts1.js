@@ -5,7 +5,6 @@ async function showProducts1(data, location)
     data.forEach(el => {
             if(i <= 28)
             {
-            //console.log(el);
             let makeupDiv = document.createElement("div");
             let img = document.createElement("img");
             img.src = el.image_link;
@@ -13,7 +12,8 @@ async function showProducts1(data, location)
             name.innerText = el.name;
             let price = document.createElement("p");
             let priceValue = el.price;
-            price.innerText = `${priceValue} $`;
+            price.setAttribute("class","price")
+            price.innerText = `Price: ${priceValue} $`;
             let starsDiv = document.createElement("div");
             starsDiv.setAttribute("id","starsDiv")
             for(let st = 0;st<5;st++)
@@ -45,6 +45,10 @@ async function showProducts1(data, location)
             let buyBtn = document.createElement("button")
             buyBtn.innerText = `Buy Now`;
             buyBtn.setAttribute("id","dVbuyBtn");
+            buyBtn.addEventListener("click",function goToCart(){
+                localStorage.setItem("cartItm",JSON.stringify(el))
+                window.open("cart.html")
+            });
             wish_buyDiv.append(heart,buyBtn)
 
             makeupDiv.append(img,name,price,starsDiv,shades,wish_buyDiv)
@@ -52,6 +56,8 @@ async function showProducts1(data, location)
             i++; 
           } 
     });
+
 }
+
 
 export default showProducts1

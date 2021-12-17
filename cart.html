@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="cart.css">
+<link rel="stylesheet" href="products1.css">
+</head>
+<body>
+    <div id="cartcont">
+     <div id="itemsdiv" ></div>
+        <div id="infodiv">
+            <div id="cartcoupon" class="shadow">
+                <div>
+                    <input type="text" placeholder="Enter coupon code" class="back" id="couponinput">
+                    <button class="back" onclick="checkcoupon()">Apply</button>
+                </div>
+            </div>
+            <div class="payinfo shadow">
+                <h1 id="pinkpay">Payment Details</h1>
+                <div class="costs">
+                    <div>Item total <span class="itemprice">₹</span></div>
+                    <div class="pintextteal">Delivery cost at  <span>Free</span> </div>
+                    <div>Today’s savings <span id="savings">₹</span> </div>
+                    <hr >
+                    <div>Total price <span id="totalprice" >₹</span> </div>
+                </div>
+                <div class="lft">
+                <input type="checkbox"> <label for="">
+                    <span>this a gift item?</span>  </label>
+                    <br>
+                    <input type="checkbox"> <label for="">
+                        <span>Towards Donation for the underprivileged</span>  </label>
+                </div>
+                <div class="rgt lft">
+                    <button class="checkout" id="checkbottom">CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="cart.js"></script>
