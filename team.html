@@ -4,100 +4,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel = "icon" href ="/download-modified.png">
     <title>Our Team - Style Craze</title>
-    <!-- <link rel="stylesheet" href="/styles/team.css"> -->
-  <style>
-      
-#DK_teamfirst{
-    height:40px;
-    width:30%;
-    /* border:1px solid black; */
-    margin: auto;
-    font-family: 'Roboto', sans-serif;
-}
-
-#DK_teamfirst>p{
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-    margin-top:20% ;
-}
-#DK_teamsec{
-    height:60px;
-    width:60%;
-    /* border:1px solid black; */
-    margin: auto;
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-    font-size: 17px;
-    margin-bottom: 25px;
-}
-.DK_dimple{
-    height:200px;
-    width:70%;
-    border:1px solid black;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    margin-bottom: 20px;
-    margin: auto;
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-}
-
-#dVnav-container{
-    width: 99.9%;
-    /* border: 1px solid rgb(228, 38, 101);  */
-    background-color: white;
-    z-index: 10;
-    height: 65px;
-    position: fixed;
-    top: 0%;
-    margin: 0px !important;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    vertical-align: top;
-}
-.dVaboutLogo{
-    cursor: pointer;
-    z-index: 9;
-    position: relative;
-    -webkit-transition: all .7s;
-    -moz-transition: all .7s;
-    transition: all .7s;
-    width: 25%;
-    padding-top: 5px;
-}
-#DK_pic>img{
-    height:250px;
-    width:250px;
-    margin-right: 20px;
-}
-
-.DK_COLOR{
-    color:#f67;
-}
-
-@media screen and (min-width: 300px) and (max-width: 845px){
-    #DK_dimple{
-        display: block;
-        height: 180%;
-        width:140%;
-        margin-top: 30px;
-    }
-    #DK_dimplequalifi>p,#DK_teamfirst{
-        font-size: 22px;
-    }
-    #DK_teamfirst{
-        text-align: center;
-        width:130%;
-    }
-    #DK_teamsec{
-        height:150%;
-        width:100%;
-    }
-    #DK_teamsec{
-        width:130%;
-        font-size: 22px;
-    }
-}
-  </style>
+    <link rel="stylesheet" href="/team.css">
+    <script src="https://kit.fontawesome.com/675a12bd74.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/footer.css">
+  
 </head>
 <body>
     <div id="dVnav-container"> 
@@ -124,7 +37,7 @@
       
     <div id = "DK_dimple">
         <div id = "DK_pic">
-            <img src="sonali.png"">
+            <img src="team/sonali.png"">
         </div>
         <div class = "DK_dimplequalifi">
             <p class = "DK_COLOR">SONALI GUPTA</p>
@@ -175,5 +88,15 @@
             </p>
         </div>
     </div>
+    <div id = "DK_main"class="dK_lastMargin"></div>
+    <div id = "DK_last"></div>
 </body>
 </html>
+<script type="module">
+    let DK_main =  document.getElementById("DK_main")
+    import footer from "./components/footer.js"
+    DK_main.innerHTML = footer()
+    let DK_last  =document.getElementById("DK_last")
+    import copy from "./components/copy.js"
+    DK_last.innerHTML = copy()
+</script>

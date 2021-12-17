@@ -69,7 +69,9 @@ body{
 .DK_COLOR{
     color:#f67;
 }
-
+.dK_lastMargin{
+    margin-top: 10%;
+}
 @media screen and (min-width: 300px) and (max-width: 845px){
     #DK_dimple{
         display: block;
