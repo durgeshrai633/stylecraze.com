@@ -2,6 +2,20 @@
     margin: 0;
     padding:0;
 }
+#sol{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#sol .sli a {
+    text-decoration: none;
+    color:  #ff5a78;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
 #DK_main{
     margin-top: 1500px;
 }
