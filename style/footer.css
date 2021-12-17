@@ -1,0 +1,154 @@
+#DK_cont{
+    height:270px;
+    width:80%;
+    border:1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#DK_flex{
+    height:100%;
+    width:45%;
+    /* border:1px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+#DK_flex>.DK_about{
+    height:70%;
+    width:45%;
+    /* border:1px solid green; */
+}
+#DK_flex>.DK_about>a,#DK_sister>a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+#DK_follow{
+height:100%;
+width:20%;
+/* border:1px solid red; */
+}
+#DK_follow>div,#DK_sister>div{
+    font-size: 20px;
+    line-height: 30px;
+}
+#DK_follow>a{
+    font-size: 25px;
+    color: black;
+    margin-right: 10px;
+}
+#DK_sister{
+height:100%;
+width:15%;
+/* border:1px solid teal; */
+}
+#DK_sister>div{
+    width:120%;
+    margin-right: 30px;
+}
+#DK_sister>a{
+    text-align: center;
+}
+#DK_flex>.DK_about>a:hover,#DK_sister>a:hover,#DK_follow>a:hover{
+text-decoration: underline;
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+#DK_cont{
+    display: block;
+    width:80%;
+    margin:auto;
+    height:120%;
+    text-align: center;
+
+}
+#DK_flex{
+    display: block;
+    margin-left: 40%;
+    
+}
+
+.DK_about>a{
+    width:150%;
+}
+#DK_follow{
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+}
+#DK_sister{
+    margin-left: 40%;
+    width:25%;
+
+}
+#DK_sister>div{
+    width:140%;
+    font-size: 25px;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 968px){
+    #DK_cont{
+    display: flex;
+    justify-content: space-between;
+    height:150%;
+    
+}
+#DK_flex{
+    display: block;
+    height:120%;
+    width:62%;
+    line-height: 15px;
+    
+}
+#DK_flex>.DK_about{
+    margin-bottom: 10px;
+}
+#DK_follow{
+    width:15%;
+}
+
+#DK_sister{
+    width:25%;
+}
+#DK_sister>div{
+    margin-left: 30px;
+}
+#DK_copyright{
+    margin-top: 12%;
+    width:100%;
+}
+#DK_copyright>div{
+    text-align: center;
+}
+}
+
+
+
+#DK_last{
+    width:80%;
+    height:140px;
+    border:1px solid #eee;
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+    margin: auto;
+}
+#DK_copy{
+
+    text-align: center; 
+}
+#DK_belowcopy{
+    text-align:left;
+    width:90%;
+    margin: auto;   
+}
+.DK_red{
+    text-decoration: none;
+    color: red;
+}  
