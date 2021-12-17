@@ -106,12 +106,13 @@ signUpUserButton.addEventListener("click", () => {
     password: document.getElementById("spsw").value,
   };
 
-  if (user.username == "" || user.mobile || "" || user.password == "") {
+  if (user.username == "" || user.mobile == "" || user.password == "") {
     alert("Please enter required details!");
   } else {
     users.push(user);
     localStorage.setItem("users", JSON.stringify(users));
-    alert(users);
+  modal.style.display = "none";
+
   }
 });
 
