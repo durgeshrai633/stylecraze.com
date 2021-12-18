@@ -1,7 +1,7 @@
 import navbar from "./components/navbar.js";
 var header = document.getElementById("dr-header");
 header.innerHTML = navbar();
-
+alert("Navbar");
 var makeup = document.getElementById("makeup-dropdown");
 var haircare = document.getElementById("haircare-dropdown");
 var skincare = document.getElementById("skincare-dropdown");
