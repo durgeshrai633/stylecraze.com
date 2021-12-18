@@ -1,7 +1,7 @@
 import navbar from "./navbar.js";
 var header = document.getElementById("dr-header");
 header.innerHTML = navbar();
-alert("Ijto navbar");
+// alert("Ijto navbar");
 var makeup = document.getElementById("makeup-dropdown");
 var haircare = document.getElementById("haircare-dropdown");
 var skincare = document.getElementById("skincare-dropdown");
