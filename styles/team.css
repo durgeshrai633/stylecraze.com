@@ -10,6 +10,22 @@ body{
     margin: auto;
     font-family: 'Roboto', sans-serif;
 }
+#sol{
+    position: absolute;
+    top: 13%;
+    margin-left: 5%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+}
+#sol .sli a {
+    text-decoration: none;
+    color:  #ff5a78;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
 
 #DK_teamfirst>p{
     font-size: 30px;
