@@ -111,6 +111,7 @@ signUpUserButton.addEventListener("click", () => {
   } else {
     users.push(user);
     localStorage.setItem("users", JSON.stringify(users));
+    alert("You are successfully registered .Please Login Now!");
   modal.style.display = "none";
 
   }
@@ -124,14 +125,18 @@ logInUserButton.addEventListener("click",()=>{
   var username = document.getElementById("uname").value;
   var password = document.getElementById("psw").value;
   console.log(username);
-
+  var flag =false;
   for(var i = 0; i < users.length;i++){
     if(users[i].username == username && users[i].password == password){
       document.getElementById("open-model").innerHTML = `<i class="fas fa-user"></i>`;
       modal.style.display = "none";
       localStorage.setItem("currentUser",username);
+      flag = true;
       break;
     }
+  }
+  if(!flag){
+    alert("User Not Registered.Please Do Sign-up ")
   }
 })
 var currentUser = localStorage.getItem("currentUser");
