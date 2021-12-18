@@ -1,4 +1,4 @@
-import navbar from "./components/navbar.js";
+import navbar from "/components/navbar.js";
 var header = document.getElementById("dr-header");
 header.innerHTML = navbar();
 alert("Ijto navbar");
