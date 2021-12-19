@@ -10,7 +10,7 @@ async function products()
     let data = await res.json();
     console.log(data);
     localStorage.setItem("makeup", JSON.stringify(data))
-    showProducts1(localData,dVproducts1_cont)
+    showProducts1(data,dVproducts1_cont)
     }
     catch(err){
         console.log(`err: `,err);
