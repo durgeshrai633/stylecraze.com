@@ -628,7 +628,7 @@ function navbar() {
           <div class="about-us-div" id="about-us-dropdown">
             <ul class="dr-about-us">
               <li><a href="team.html">Our team</a></li>
-              <li><a href="about-us.html">Edetorial policy</a></li>
+              <li><a href="about-us.html">Editorial policy</a></li>
               <li><a href="about-us.html">medical review board</a></li>
               <li><a href="about-us.html">expert panel</a></li>
               <li><a href="about-us.html">contact us</a></li>

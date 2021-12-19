@@ -141,6 +141,7 @@ a {
   position: absolute;
   display: none;
   background-color: white;
+  z-index:1000;
 }
 
 .about-us-div ul {
@@ -152,6 +153,10 @@ a {
   color: #777;
   padding: 5px;
   display: inline-block;
+}
+.about-us-div ul li a:hover {
+  color: #fe5c75;
+  transition: color 0.2s ease-in;
 }
 
 /* On screens that are 768px or less, set the background color to olive */
