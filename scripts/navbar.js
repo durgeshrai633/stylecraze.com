@@ -45,7 +45,7 @@ function navbar() {
 />
 <label for="address"><b>Address:</b></label>
 <input
-  type="number"
+  type="text"
   placeholder="Address"
   name="address"
   id="address"
