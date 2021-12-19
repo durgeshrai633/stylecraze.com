@@ -52,8 +52,8 @@ function display(){
     },0);
     var Numberofitem = cartItems.length
 document.getElementById("itemqty").textContent=  Numberofitem
-    document.getElementById("itemprice").textContent= Bill +"$"
-    document.getElementById("totalprice").textContent= Bill +"$"
+    document.getElementById("itemprice").textContent= Bill.toFixed(2) +"$"
+    document.getElementById("totalprice").textContent= Bill.toFixed(2) +"$"
     display()    
        
     });
@@ -82,8 +82,8 @@ return acc + Number(cv.price);
 var Numberofitem = cartItems.length
 document.getElementById("itemqty").textContent=  Numberofitem
 
-document.getElementById("itemprice").textContent= Bill +"$"
-document.getElementById("totalprice").textContent= Bill +"$"
+document.getElementById("itemprice").textContent= Bill .toFixed(2)+"$"
+document.getElementById("totalprice").textContent= Bill.toFixed(2) +"$"
 
 var promo = document.getElementById("back")
 promo.addEventListener("click",applypromo)
@@ -91,8 +91,9 @@ function applypromo(){
  var A = document.getElementById("couponinput").value
  if(A == "style30"){
      NewBill = Bill - (Bill*30)/100;
-     document.getElementById("itemprice").textContent= NewBill +"$"
-     document.getElementById("totalprice").textContent= NewBill +"$"
+     document.getElementById("itemprice").textContent= NewBill.toFixed(2) +"$"
+     document.getElementById("totalprice").textContent= NewBill.toFixed(2) +"$"
+     localStorage.setItem("paydetails",JSON.stringify(NewBill))
  }
 }
 

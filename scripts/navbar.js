@@ -43,6 +43,22 @@ function navbar() {
   id="smobile"
   required
 />
+<label for="address"><b>Address:</b></label>
+<input
+  type="number"
+  placeholder="Address"
+  name="address"
+  id="address"
+  required
+/>
+<label for="pin"><b>Pin Code:</b></label>
+<input
+  type="number"
+  placeholder="Pin Code"
+  name="Pin Code"
+  id="pin"
+  required
+/>
 
 <label for="spsw"><b>Password:</b></label>
 <input
