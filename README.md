@@ -1,6 +1,3 @@
-# stylecraze.com
-Project
----
 # STYLECRAZE Clone Front-End Project
 ---
 
