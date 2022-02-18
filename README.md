@@ -48,7 +48,7 @@
 
 ### How To Use ✅
 
-First go to `Home Page` where you can see `login` or `Singup` icon after login, you can explore on any category related artiles like- `Makeup`, `Helth Care`, `Skin Care`,etc.You can also go to `Articles Page` from where by cliking on `GO TO SHOP` button, you can redirect to `Products Page` where you can see beauty products and can filter according to brand and type.Click on product image you will redirect to `Product Details Page` where you can read all details of that product, when you will click on `ADD TO CART`, product will add in your cart if you will click on `Buy Now`, you can redirect to `Checkout Page`. Where you can fill all details. go to `Payment page`,  where card details can be added and buying process can be completed. Thank You :grinning: 
+First go to `Home Page` where you can see `login` or `Singup` icon after login, you can explore on any category related articles like- `Makeup`, `Health Care`, `Skin Care`,etc.You can also go to `Articles Page` from where by cliking on `GO TO SHOP` button, you can redirect to `Products Page` where you can see beauty products and can filter according to brand and type.Click on product image you will redirect to `Product Details Page` where you can read all details of that product, when you will click on `ADD TO CART`, product will add in your cart if you will click on `Buy Now`, you can redirect to `Checkout Page`. Where you can fill all details. go to `Payment page`,  where card details can be added and buying process can be completed. Thank You :grinning: 
 
 ---
 
